@@ -21,5 +21,5 @@ Die Reflektion der Grenzen und Beschränkungen, die mit der eigenen Operationali
 
 ## Bibliographie
 ```{bibliography}
-:style: alpha
+:filter: docname in docnames
 ```

@@ -160,3 +160,8 @@ Mit diesem Kapitel sind wir zur Operationalisierung der Forschungsfrage zurückg
 
 Im nächsten Abschnitt wird die Häufigkeitsanalyse durchgeführt, dabei besteht die Möglichkeit mit einem eigens erstellten semantischen Feld zu arbeiten. Die berchneten Häufikeiten werden dann in einem Liniendiagramm visualisiert.
 Darauffolgend gibt es die Möglichkeit, Suchterme für die KWIC-Darstellung einzugeben und sich so einen tieferen Einblick in die Analyse zu verschaffen. Abschließend folgt ein Resümee. 
+
+## Bibliographie
+```{bibliography}
+:filter: docname in docnames
+```
