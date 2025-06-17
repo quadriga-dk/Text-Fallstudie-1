@@ -25,7 +25,7 @@ authors: &id001
 #   value: 10.5281/zenodo.14970672
 #   description: Zenodo
 repository-code: https://github.com/quadriga-dk/Text-Fallstudie-1
-url: https://dh-network.github.io/quadriga/
+url: https://quadriga-dk.github.io/Text-Fallstudie-1/
 keywords:
 - open educational resource
 license: CC-BY-SA-4.0
@@ -41,7 +41,7 @@ preferred-citation:
   title: 'Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie'
   type: book
   # doi: 10.5281/zenodo.14970672
-  url: https://dh-network.github.io/quadriga/
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/
   repository-code: https://github.com/quadriga-dk/Text-Fallstudie-1
   license: CC-BY-SA-4.0
   languages:
