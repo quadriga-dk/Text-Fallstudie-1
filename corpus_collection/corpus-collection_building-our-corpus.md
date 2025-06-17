@@ -94,7 +94,7 @@ df = pd.read_csv("../data/metadata/QUADRIGA_FS-Text-01_Data01_Corpus-Table.csv",
 df.head()
 ```
 
-Die vollständige CSV-Datei kann [hier](https://github.com/dh-network/quadriga/blob/ec3334a4b18750e5bb10c25b2badcbfbbf18592c/data/metadata/QUADRIGA_FS-Text-01_Data01_Corpus-Table.csv) heruntergeladen werden.
+Die vollständige CSV-Datei kann [hier](https://github.com/quadriga-dk/Text-Fallstudie-1/blob/main/data/metadata/QUADRIGA_FS-Text-01_Data01_Corpus-Table.csv) heruntergeladen werden.
 
 ## Sammlung der Elemente
 Die CSV-Datei, die sämtliche Elemente Korpus aufführt, listet auch jeweils einen Link zur PDF-Datei des Korpus. Dieser Link hat stets die Form: 
@@ -105,7 +105,7 @@ https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180101-0-0-0-0.pd
 ```
 Ruft man den [Link](https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180101-0-0-0-0.pdf) etwa im Browser auf, wird die PDF angezeigt oder heruntergeladen. Auf diese Weise ließen sich sukzessive, Klick für Klick, sämtliche Elemente des Korpus sammeln. Dieser Prozess kann dabei automatisiert werden. 
 
-Dafür erstellen wir aus der CSV-Datei zunächst eine einfache Link-Liste mit allen Links und speichern diese als TXT-Datei, der wir in unserem Fall den Dateinamen "QUADRIGA_FS-Text-01_Data01_Link-List.txt" geben. Diese Datei lässt sich [hier](https://github.com/dh-network/quadriga/blob/ec3334a4b18750e5bb10c25b2badcbfbbf18592c/data/metadata/QUADRIGA_FS-Text-01_Data01_Link-List.txt) herunterladen.
+Dafür erstellen wir aus der CSV-Datei zunächst eine einfache Link-Liste mit allen Links und speichern diese als TXT-Datei, der wir in unserem Fall den Dateinamen "QUADRIGA_FS-Text-01_Data01_Link-List.txt" geben. Diese Datei lässt sich [hier](https://github.com/quadriga-dk/Text-Fallstudie-1/blob/main/data/metadata/QUADRIGA_FS-Text-01_Data01_Link-List.txt) herunterladen.
 
 Sofern Sie mit der PowerShell (Windows) oder dem Terminal Ihres Computers umgehen können, können Sie nun Folgendes machen: Legen Sie Link-Liste in einem Ordner ab und navigieren Sie in der PowerShell/im Terminal in diesen Ordner. 
 
