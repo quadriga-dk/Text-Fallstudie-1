@@ -1,1 +1,8 @@
-*/.ipynb_checkpoints/*
+conda
+.venv
+_build
+**/__pycache__/
+venv/
+**/.DS_Store
+.vscode
+**/.ipynb_checkpoints
