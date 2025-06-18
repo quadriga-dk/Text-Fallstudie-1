@@ -6,7 +6,7 @@
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Skorinkin, D., Sluyter-Gäthje, H. & Trilcke, P. (2024). _Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie._ https://doi.org/10.5281/zenodo.15682796
+Skorinkin, D., Sluyter-Gäthje, H. & Trilcke, P. (2024). _Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie._ https://doi.org/10.5281/zenodo.15682652
 
 `````
 
