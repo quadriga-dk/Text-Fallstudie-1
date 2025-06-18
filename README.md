@@ -1,7 +1,7 @@
 # Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie
 ## QUADRIGA OER
 
-[![DOI](https://zenodo.org/badge/814615182.svg)](https://doi.org/10.5281/zenodo.15682652)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15682796.svg)](https://doi.org/10.5281/zenodo.15682796)
 
 Dieses interaktive Lehrbuch ist im Rahmen des Projekts <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> als 1. Fallstudie des Datentyps Text entstanden.
 

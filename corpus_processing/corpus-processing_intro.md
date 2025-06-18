@@ -16,6 +16,17 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 ```
 ````
+`````{margin}
+````{admonition} Zitierhinweis
+:class: citation-information
+```{literalinclude} /CITATION.bib
+:language: bibtex
+```
+Skorinkin, D., Sluyter-Gäthje, H. & Trilcke, P. (2024). _Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie._ https://doi.org/10.5281/zenodo.15682796
+
+`````
+
+
 ```{admonition} Korpusverarbeitung mit Natural Language Processing
 :class: lernziele
 

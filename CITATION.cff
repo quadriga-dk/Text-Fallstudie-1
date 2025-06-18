@@ -21,7 +21,7 @@ authors: &id001
   affiliation: Universität Potsdam
 identifiers:
 - type: doi
-  value: 10.5281/zenodo.15682652
+  value: 10.5281/zenodo.15682796
   description: Zenodo
 repository-code: https://github.com/quadriga-dk/Text-Fallstudie-1
 url: https://quadriga-dk.github.io/Text-Fallstudie-1/
@@ -39,7 +39,7 @@ preferred-citation:
   authors: *id001
   title: 'Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie'
   type: book
-  doi: 10.5281/zenodo.1568265
+  doi: 10.5281/zenodo.15682796
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/
   repository-code: https://github.com/quadriga-dk/Text-Fallstudie-1
   license: CC-BY-SA-4.0
