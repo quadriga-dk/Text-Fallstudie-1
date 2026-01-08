@@ -24,6 +24,8 @@ bibtex_bibfiles:
 
 # reference style
 sphinx:
+  extra_extensions:
+    - sphinx_apa_references
   config:
     bibtex_reference_style: author_year
 
