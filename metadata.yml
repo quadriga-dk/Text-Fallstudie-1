@@ -1,8 +1,5 @@
-# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0-alpha/schema.json
-schema-version: 1.0.0-alpha
-book-version: 1.0.0-beta.3
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
 title: Waves of the Spanish Flu – Case Study
-identifier: https://doi.org/10.5281/zenodo.14970672
 authors:
 - given-names: Daniil
   family-names: Skorinkin
@@ -16,18 +13,12 @@ authors:
   family-names: Trilcke
   orcid: https://orcid.org/0000-0002-1421-4320
   affiliation: Universität Potsdam
-contributors:
-- given-names: Hannes
-  family-names: Schnaitter
-  orcid: https://orcid.org/0000-0002-1602-6032
-  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-- given-names: Evgenia
-  family-names: Samoilova
-  orcid: https://orcid.org/0000-0003-3858-901X
-  affiliation: Universität Potsdam
-- given-names: Lamia
-  family-names: Islam
-  affiliation: Universität Potsdam
+keywords:
+- OCR
+- TODO
+description: Diese OER führt in die Erstellung von QUADRIGA-OERs ein, bietet Inhalte
+  für Nutzer:innen der OERs und dient gleichzeitig als Template für die Erstellung
+  eigener OERs auf Basis der QUADRIGA-Empfehlungen.
 table-of-contents: '- Präambel
 
   - Fragestellung und Operationalisierung. Einführung in die Fallstudie
@@ -45,21 +36,38 @@ table-of-contents: '- Präambel
   - Reflexion
 
   - Epilog'
-description: Diese OER führt in die Erstellung von QUADRIGA-OERs ein, bietet Inhalte
-  für Nutzer:innen der OERs und dient gleichzeitig als Template für die Erstellung
-  eigener OERs auf Basis der QUADRIGA-Empfehlungen.
 discipline:
 - übergreifend
 research-object-type:
 - übergreifend
+target-group:
+- Promovierende
+- Forschende (PostDoc)
+- Hochschullehrende
+time-required: PT12H
+language: de
+contributors:
+- given-names: Hannes
+  family-names: Schnaitter
+  orcid: https://orcid.org/0000-0002-1602-6032
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+- given-names: Evgenia
+  family-names: Samoilova
+  orcid: https://orcid.org/0000-0003-3858-901X
+  affiliation: Universität Potsdam
+- given-names: Lamia
+  family-names: Islam
+  affiliation: Universität Potsdam
+identifier: https://doi.org/10.5281/zenodo.14970672
+git: https://github.com/quadriga-dk/Text-Fallstudie-1
+url: https://quadriga-dk.github.io/Text-Fallstudie-1/
 chapters:
 - title: Präambel
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/präambel/einführung.html
   description: Beschreibung der Lernziele und technischer Voraussetzungen der Fallstudie.
   learning-goal: Die Teilnehmenden verstehen die Lernziele und technischen Voraussetzungen
     der Fallstudie.
-  duration: 5min
-  educational-level: Basis
+  time-required: PT1M
   learning-objectives:
   - learning-objective: Die Teilnehmenden kennen die Lernziele und technischen Voraussetzungen
       der Fallstudie.
@@ -72,43 +80,41 @@ chapters:
     des Erkenntnisinteresses, das die dann folgende Vorbereitung und Aufbereitung
     des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet.
   learning-goal: Grundlagen korpusbasierter geisteswissenschaftlicher Forschung
-  duration: 45min
-  educational-level: Basis
+  time-required: 45min
   learning-objectives:
   - learning-objective: Die Entwicklung einer Digital Humanities-Fragestellung kann
       am Beispiel der Medienwellen-Forschung zur Spanischen Grippe nachvollzogen und
       erläutert werden.
-    competency: 1 Konzeptualisierung
-    data-flow: 1 Plannung
+    competency: nicht anwendbar
+    data-flow: 1 Planung
     blooms-category: 2 Verstehen
   - learning-objective: Der Operationalisierungsprozess kann am Beispiel der Spanischen
       Grippe nachvollzogen und auf andere Forschungsfragen übertragen werden.
-    competency: 2 Formalisierung
-    data-flow: 2 Erhebung
+    competency: nicht anwendbar
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 3 Anwenden
 - title: Korpusaufbau. Auswählen, sammeln, dokumentieren
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/corpus_collection/corpus-collection_intro.html
   description: Der Forschungsgegenstand wird in Form eines Korpus aufbereitet.
   learning-goal: Ansätze des Korpusaufbaus und Erstellung basaler Metadaten
-  duration: 90min
-  educational-level: Basis
+  time-required: 90min
   learning-objectives:
   - learning-objective: Korpora können als geisteswissenschaftliche Forschungsobjekte
       definiert und deren wesentliche Merkmale beschrieben werden.
-    competency: 1 Konzeptualisierung
-    data-flow: 2 Erhebung
+    competency: nicht anwendbar
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 2 Verstehen
   - learning-objective: Die vier Hauptformate digitaler Texte (Bilddigitalisate, Plain
       Text, XML/TEI, CSV) können anhand ihrer charakteristischen Eigenschaften unterschieden
       und deren Vor- und Nachteile für spezifische Anwendungsfälle analysiert werden.
-    competency: 3 Datenmodellierung
-    data-flow: 3 Anreicherung
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
     blooms-category: 4 Analysieren
   - learning-objective: Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS,
       METS) und deren charakteristische Elemente für Korpora und Einzeldokumente können
       beschrieben werden.
-    competency: 3 Datenmodellierung
-    data-flow: 2 Erhebung
+    competency: nicht anwendbar
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 2 Verstehen
   - learning-objective: Der schrittweise Prozess des praktischen Korpusaufbaus (Konzeptentwicklung,
       Metadatenerstellung und Datensammlung) kann am Beispiel eines Zeitungskorpus
@@ -120,20 +126,19 @@ chapters:
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/ocr/ocr_intro.html
   description: In diesem Kapitel lernen wir, wie man mit OCR Bilder in Text umwandelt.
   learning-goal: OCR-basierte Korpuserstellung und Qualitätsbewertung
-  duration: 120min
-  educational-level: Fortgeschritten
+  time-required: 120min
   learning-objectives:
   - learning-objective: Der Prozess der Optical Character Recognition (OCR) für die
       Korpuserstellung kann beschrieben und Tools zur Durchführung der OCR aufgezählt
       werden.
-    competency: 4 Automatisierung
-    data-flow: 3 Anreicherung
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
     blooms-category: 2 Verstehen
   - learning-objective: Die notwendigen Schritte zur Verarbeitung ein- und mehrseitiger
       PDFs zu Text können aufgezählt und die Unterschiede zwischen Ursprungs- und
       Zielformat erklärt werden.
-    competency: 4 Automatisierung
-    data-flow: 3 Anreicherung
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
     blooms-category: 2 Verstehen
   - learning-objective: Die grundlegenden Metriken zur OCR-Qualitätsevaluation (Präzision,
       Recall, F1-Score) können erläutert und deren Bedeutung für die Bewertung von
@@ -144,49 +149,47 @@ chapters:
   - learning-objective: Die Schritte zur Qualitätsmessung eines OCR-Outputs können
       aufgezählt und die Qualitätsmaße interpretiert werden.
     competency: nicht anwendbar
-    data-flow: 3 Anreicherung
+    data-flow: nicht anwendbar
     blooms-category: 3 Anwenden
 - title: OCR-Nachbereitung. Manuell, automatisch, LLMs
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/ocr_post_correction/post-correcting_intro.html
   description: In diesem Kapitel werden wir die Ergebnisse der OCR nachbearbeiten.
   learning-goal: OCR-Nachbearbeitung und Qualitätsverbesserung
-  duration: 90min
-  educational-level: Fortgeschritten
+  time-required: 90min
   learning-objectives:
   - learning-objective: Verschiedene Verfahren der OCR-Nachbearbeitung können beschrieben
       und deren Einsatzzwecke unterschieden werden.
-    competency: 4 Automatisierung
-    data-flow: 3 Anreicherung
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
     blooms-category: 2 Verstehen
   - learning-objective: Regelbasierte Ansätze zur OCR-Nachkorrektur können beschrieben
       und deren Auswirkungen auf die OCR-Qualität anhand von Metriken erläutert werden.
-    competency: 4 Automatisierung
-    data-flow: 3 Anreicherung
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
     blooms-category: 4 Analysieren
   - learning-objective: Die grundlegenden Herausforderungen beim Einsatz von Large
       Language Models für die OCR-Nachbearbeitung können beschrieben werden.
-    competency: 4 Automatisierung
-    data-flow: 3 Anreicherung
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
     blooms-category: 2 Verstehen
 - title: Korpusverarbeitung. Von Strings zu Token
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/corpus_processing/corpus-processing_intro.html
   description: Die im Korpus enthaltenen Textdateien werden mit linguistischen Informationen
     angereichert.
   learning-goal: Korpusverarbeitung mit Natural Language Processing
-  duration: 60min
-  educational-level: Fortgeschritten
+  time-required: 60min
   learning-objectives:
   - learning-objective: Die Grundkonzepte des Natural Language Processing können erklärt
       und die Funktionen von Tokenisierung und Lemmatisierung für die Textanalyse
       beschrieben werden.
-    competency: 4 Automatisierung
-    data-flow: 3 Anreicherung
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
     blooms-category: 2 Verstehen
   - learning-objective: Die notwendigen Schritte zur automatischen Annotation eines
       Texts können aufgezählt und Vorteile der Tokenisierung gegenüber einfacheren
       Methoden der Worttrennung genannt werden.
-    competency: 4 Automatisierung
-    data-flow: 3 Anreicherung
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
     blooms-category: 3 Anwenden
 - title: Korpusanalyse. Von Häufigkeiten zu Diagrammen
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/corpus_analysis/corpus-analysis_intro.html
@@ -196,26 +199,25 @@ chapters:
     derjenigen Wörter gemessen werden, die direkt oder indirekt auf die spanische
     Grippe verweisen.
   learning-goal: Frequenzanalysen semantischer Felder
-  duration: 90min
-  educational-level: Fortgeschritten
+  time-required: 90min
   learning-objectives:
   - learning-objective: Das Konzept des semantischen Feldes kann erklärt, der Unterschied
       zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden
       des Liniendiagramms und der Key Word in Context (KWIC)-Anzeige interpretiert
       werden.
-    competency: 10 Fachspezifische datenanalyse
+    competency: 4.1 Datenanalyse
     data-flow: 4 Analyse
     blooms-category: 2 Verstehen
   - learning-objective: Die notwendigen Schritte zur Frequenzanalyse eines semantischen
       Felds können aufgezählt, Unterschiede in der Berechnung der Häufigkeiten benannt
       und die Ergebnisse reflektiert werden.
-    competency: 10 Fachspezifische datenanalyse
+    competency: 4.1 Datenanalyse
     data-flow: 4 Analyse
     blooms-category: 5 Bewerten
   - learning-objective: Die Darstellungsmethode Keywords in Context kann beschrieben,
       Wörter zur Anzeige ausgewählt und diese angezeigt werden.
-    competency: 11 Visualisierung
-    data-flow: 5 Visualisierung
+    competency: 4.2 Visualisierung
+    data-flow: 4 Analyse
     blooms-category: 3 Anwenden
 - title: Reflexion
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/reflection/reflection_reflection.html
@@ -226,27 +228,26 @@ chapters:
     Tageszeitungen nachweisen konnten, gibt es mehrere Punkte, die abschließend kritisch
     zu reflektieren sind.
   learning-goal: Kritische Bewertung der Reichweite und Limitationen
-  duration: 30min
-  educational-level: Fortgeschritten
+  time-required: 30min
   learning-objectives:
   - learning-objective: Die methodischen Limitationen einer Digital Humanities-Fallstudie
       können benannt werden.
-    competency: 7 Interpretation
-    data-flow: nicht anwendbar
+    competency: 4.3 Interpretation
+    data-flow: 4 Analyse
     blooms-category: 5 Bewerten
-target-group:
-- Promovierende
-- Forschende (PostDoc)
-- Hochschullehrende
-duration: 12h
-date-published: '2024-06-17'
+date-issued: '2024-06-17'
 date-modified: '2025-08-21'
+version: 1.0.0-beta.3
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt.
 
+
   Förderkennzeichen: 16DKZ2034'
-url: https://quadriga-dk.github.io/Text-Fallstudie-1/
-git: https://github.com/quadriga-dk/Text-Fallstudie-1
+quality-assurance:
+  description: https://doi.org/TODO
+  date: '2026-11-14'
+learning-resource-type: Jupyter Book
+schema-version: 1.0.0
 license:
   code: https://opensource.org/licenses/AGPL-3.0
   content:
