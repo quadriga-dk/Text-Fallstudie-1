@@ -37,7 +37,7 @@ references:
   - name: The Jupyter Book Community
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
-  year: '2025'
+  year: '2026'
   authors: *id001
   title: Waves of the Spanish Flu – Case Study
   type: book
