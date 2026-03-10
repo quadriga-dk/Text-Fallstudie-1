@@ -1,0 +1,125 @@
+⚠️ Found 33 issues with missing metadata:
+
+1. Section: Grundlagen korpusbasierter geisteswissenschaftlicher Forschung
+   Missing: learning-goal
+
+2. Section: Grundlagen korpusbasierter geisteswissenschaftlicher Forschung
+   Objective: Die Entwicklung einer Digital Humanities-Fragestellung kann ...
+   Missing: competency, blooms-category
+
+3. Section: Grundlagen korpusbasierter geisteswissenschaftlicher Forschung
+   Objective: Der Operationalisierungsprozess kann am Beispiel der Spanisc...
+   Missing: competency, blooms-category
+
+4. Section: Grundlagen korpusbasierter geisteswissenschaftlicher Forschung
+   Missing: chapter
+
+5. Section: Ansätze des Korpusaufbaus und Erstellung basaler Metadaten
+   Missing: learning-goal
+
+6. Section: Ansätze des Korpusaufbaus und Erstellung basaler Metadaten
+   Objective: Korpora können als geisteswissenschaftliche Forschungsobjekt...
+   Missing: competency, blooms-category
+
+7. Section: Ansätze des Korpusaufbaus und Erstellung basaler Metadaten
+   Objective: Die vier Hauptformate digitaler Texte (Bilddigitalisate, Pla...
+   Missing: competency, blooms-category
+
+8. Section: Ansätze des Korpusaufbaus und Erstellung basaler Metadaten
+   Objective: Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS,...
+   Missing: competency, blooms-category
+
+9. Section: Ansätze des Korpusaufbaus und Erstellung basaler Metadaten
+   Objective: Der schrittweise Prozess des praktischen Korpusaufbaus (Konz...
+   Missing: competency, blooms-category
+
+10. Section: Ansätze des Korpusaufbaus und Erstellung basaler Metadaten
+   Missing: chapter
+
+11. Section: OCR-basierte Korpuserstellung und Qualitätsbewertung
+   Missing: learning-goal
+
+12. Section: OCR-basierte Korpuserstellung und Qualitätsbewertung
+   Objective: Der Prozess der Optical Character Recognition (OCR) für die ...
+   Missing: competency, blooms-category
+
+13. Section: OCR-basierte Korpuserstellung und Qualitätsbewertung
+   Objective: Die notwendigen Schritte zur Verarbeitung ein- und mehrseiti...
+   Missing: competency, blooms-category
+
+14. Section: OCR-basierte Korpuserstellung und Qualitätsbewertung
+   Objective: Die grundlegenden Metriken zur OCR-Qualitätsevaluation (Präz...
+   Missing: competency, blooms-category
+
+15. Section: OCR-basierte Korpuserstellung und Qualitätsbewertung
+   Objective: Die Schritte zur Qualitätsmessung eines OCR-Outputs können a...
+   Missing: competency, blooms-category
+
+16. Section: OCR-basierte Korpuserstellung und Qualitätsbewertung
+   Missing: chapter
+
+17. Section: OCR-Nachbearbeitung und Qualitätsverbesserung
+   Missing: learning-goal
+
+18. Section: OCR-Nachbearbeitung und Qualitätsverbesserung
+   Objective: Verschiedene Verfahren der OCR-Nachbearbeitung können beschr...
+   Missing: competency, blooms-category
+
+19. Section: OCR-Nachbearbeitung und Qualitätsverbesserung
+   Objective: Regelbasierte Ansätze zur OCR-Nachkorrektur können beschrieb...
+   Missing: competency, blooms-category
+
+20. Section: OCR-Nachbearbeitung und Qualitätsverbesserung
+   Objective: Die grundlegenden Herausforderungen beim Einsatz von Large L...
+   Missing: competency, blooms-category
+
+21. Section: OCR-Nachbearbeitung und Qualitätsverbesserung
+   Missing: chapter
+
+22. Section: Korpusverarbeitung mit Natural Language Processing
+   Missing: learning-goal
+
+23. Section: Korpusverarbeitung mit Natural Language Processing
+   Objective: Die Grundkonzepte des Natural Language Processing können erk...
+   Missing: competency, blooms-category
+
+24. Section: Korpusverarbeitung mit Natural Language Processing
+   Objective: Die notwendigen Schritte zur automatischen Annotation eines ...
+   Missing: competency, blooms-category
+
+25. Section: Korpusverarbeitung mit Natural Language Processing
+   Missing: chapter
+
+26. Section: Frequenzanalysen semantischer Felder
+   Missing: learning-goal
+
+27. Section: Frequenzanalysen semantischer Felder
+   Objective: Das Konzept des semantischen Feldes kann erklärt, der Unters...
+   Missing: competency, blooms-category
+
+28. Section: Frequenzanalysen semantischer Felder
+   Objective: Die notwendigen Schritte zur Frequenzanalyse eines semantisc...
+   Missing: competency, blooms-category
+
+29. Section: Frequenzanalysen semantischer Felder
+   Objective: Die Darstellungsmethode Keywords in Context kann beschrieben...
+   Missing: competency, blooms-category
+
+30. Section: Frequenzanalysen semantischer Felder
+   Missing: chapter
+
+31. Section: Kritische Bewertung der Reichweite und Limitationen
+   Missing: learning-goal
+
+32. Section: Kritische Bewertung der Reichweite und Limitationen
+   Objective: Die methodischen Limitationen einer Digital Humanities-Falls...
+   Missing: competency, blooms-category
+
+33. Section: Kritische Bewertung der Reichweite und Limitationen
+   Missing: chapter
+
+
+How to fix:
+  competency/bloom   → <!-- competency: X | bloom: Y --> after the objective
+  learning-goal      → <!-- learning-goal: ... --> inside the admonition block
+  chapter            → <!-- START: ChapterName --> before the learning goal
