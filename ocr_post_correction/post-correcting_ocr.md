@@ -114,12 +114,10 @@ In this interactive element, you can use the check boxes to see how the post-pro
     const format = document.getElementById('chk-format').checked;
     const comp = document.getElementById('chk-comp').checked;
 
-    // Highlight colors for corrected elements
     const styleRecog = recog ? 'background-color: #d4edda; font-weight: bold;' : '';
     const styleTypo = typo ? 'background-color: #fff3cd; font-weight: bold;' : '';
     const styleComp = comp ? 'background-color: #cce5ff; font-weight: bold;' : '';
     
-    // Linebreaks change based on formatting toggle
     const lb = format ? '\n\n' : '\n'; 
 
     let html = '';
@@ -143,7 +141,7 @@ In this interactive element, you can use the check boxes to see how the post-pro
     document.getElementById('ocr-box').innerHTML = html;
   }
   
-  // Initialize the text box on page load
+  
   updateOcrText();
 </script>
 <br>
