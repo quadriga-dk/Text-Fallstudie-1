@@ -232,7 +232,7 @@ Dieser Text behandelt das Thema OCR.
       feedbackElem.textContent = "✓ Korrekt repariert!";
       feedbackElem.style.color = "#5fb079";
       textElem.innerHTML = corrections[id];
-      selectElem.disabled = true; 
+      selectElem.disabled = true;
     } else if (selectElem.value !== "") {
       feedbackElem.textContent = "✗ Falsche Kategorie. Bitte versuchen Sie es erneut.";
       feedbackElem.style.color = "#b05f67";
@@ -241,6 +241,38 @@ Dieser Text behandelt das Thema OCR.
       cardElem.style.borderColor = "#ccc";
       cardElem.style.backgroundColor = "#fcfcfc";
     }
+  }
+
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
+
+  function shuffleOptions(selectElement) {
+    const firstOption = selectElement.options[0];
+    const otherOptions = Array.from(selectElement.options).slice(1);
+
+    shuffleArray(otherOptions);
+
+    selectElement.innerHTML = "";
+    selectElement.appendChild(firstOption);
+
+    otherOptions.forEach(option => {
+      selectElement.appendChild(option);
+    });
+  }
+
+  function shuffleCards() {
+    const container = document.querySelector("div[style*='flex-direction: column']");
+    const cards = Array.from(document.querySelectorAll("[id^='card-']"));
+
+    shuffleArray(cards);
+
+    cards.forEach(card => {
+      container.insertBefore(card, container.lastElementChild);
+    });
   }
 
   function resetGame() {
@@ -252,6 +284,14 @@ Dieser Text behandelt das Thema OCR.
       document.getElementById(`text-${i}`).innerText = originalTexts[i];
     }
   }
+    
+  window.onload = () => {
+    document.querySelectorAll("select").forEach(select => {
+      shuffleOptions(select);
+    });
+
+    shuffleCards();
+  };
 </script>
 
 ### Fazit
