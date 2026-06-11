@@ -105,31 +105,48 @@ let ocrCache = {};
   const ocrBox = document.getElementById("toyOCR");
   const metrics = document.getElementById("toyMetrics");
 
+  function pseudoRandom(seed){
+  return Math.abs(Math.sin(seed) * 10000) % 1;
+  }
+
   function simulateOCR(gt, accuracy){
-    const chars = gt.split("");
-    const total = chars.length;
 
-    const correctCount = Math.round(total * (accuracy / 100));
-    const errorCount   = total - correctCount;
-    let ocrOut = [];
+  const chars = gt.split("");
+  const total = chars.length;
+  const correctCount = Math.round(total * (accuracy / 100));
+  const errorCount = total - correctCount;
+  const errorIndices = [];
 
-    chars.forEach((ch, i) => {
-    if (i < correctCount) {
+  for(let i = 0; i < errorCount; i++){
+    let idx = Math.floor(
+      pseudoRandom(accuracy + i) * total
+    );
+    while(errorIndices.includes(idx)){
+      idx = (idx + 1) % total;
+    }
+    errorIndices.push(idx);
+  }
+  let ocrOut = [];
+  chars.forEach((ch, i) => {
+    if(!errorIndices.includes(i)){
       ocrOut.push({type:"ok", char:ch});
-    } else {
-      // deterministic error pattern
-      if (i % 3 === 0)
-        ocrOut.push({type:"sub", char:"X"});
-      else if (i % 3 === 1)
-        ocrOut.push({type:"miss", char:""});
-      else {
-        ocrOut.push({type:"ins", char:"Z"});
-        ocrOut.push({type:"ok", char:ch});
-       }
-      }
-    });
-
-    return ocrOut;
+      return;
+    }
+    const errorType = Math.floor(
+      pseudoRandom(accuracy * (i + 1)) * 3
+    );
+    if(errorType === 0){
+      ocrOut.push({type:"sub", char:"X"});
+    }
+    else if(errorType === 1){
+      ocrOut.push({type:"miss", char:""});
+    }
+    else{
+      ocrOut.push({type:"ins", char:"Z"});
+      ocrOut.push({type:"ok", char:ch});
+    }
+  })
+  return ocrOut;
   }
 
   function computeMetrics(gt, ocrOut){
@@ -181,7 +198,7 @@ let ocrCache = {};
           return `<span style="color:black; background:#2ecc71; padding:0 2px;">${item.char}</span>`;
       }).join(" ");
     
-      // ---- Compute metrics ----
+      
       const m = computeMetrics(gt, ocr);
     
       metrics.innerHTML = `
@@ -190,7 +207,7 @@ let ocrCache = {};
         <br><strong>F1:</strong> ${m.f1.toFixed(2)}
       `;
     
-      // ---- Confusion Matrix ----
+      
       const TN = gt.length - (m.TP + m.FN);
     
       document.getElementById("cmTP").style.background = "#1f77b4";
@@ -225,7 +242,6 @@ function drawPRCurve(p, r){
   const width = right - left;
   const height = bottom - top;
 
-  // ---- GRID ----
   ctx.strokeStyle = "#444";
   ctx.lineWidth = 1;
   for(let i = 0; i <= 5; i++){
@@ -236,7 +252,6 @@ function drawPRCurve(p, r){
     ctx.beginPath(); ctx.moveTo(left, y); ctx.lineTo(right, y); ctx.stroke();
   }
 
-  // ---- AXES ----
   ctx.strokeStyle = "#fff";
   ctx.lineWidth = 2;
   ctx.beginPath();
@@ -245,7 +260,6 @@ function drawPRCurve(p, r){
   ctx.lineTo(right, bottom);
   ctx.stroke();
 
-  // ---- NUMERIC AXIS LABELS ----
   ctx.fillStyle = "#fff";
   ctx.font = "12px system-ui";
   for(let i = 0; i <= 5; i++){
@@ -303,8 +317,6 @@ function drawPRCurve(p, r){
 
   ctx.setLineDash([]);
 
-
-  // ---- DOT POSITION ----
   const x = left + r * width;
   const y = bottom - p * height;
 
@@ -337,7 +349,7 @@ prCanvas.addEventListener("mousemove", function(e){
 
   slider.addEventListener("input", render);
   gtInput.addEventListener("input", () => {
-    ocrCache = {};   // reset cached OCR when GT changes
+    ocrCache = {};
     render();
   });
 
