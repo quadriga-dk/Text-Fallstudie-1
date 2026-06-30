@@ -211,10 +211,10 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-1/#chapter_0">
         <schema:description>Beschreibung der Lernziele und technischer Voraussetzungen der Fallstudie.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-1/#chapter_0_objective_0" />
-        <schema:name>Präambel</schema:name>
+        <schema:name>einstieg</schema:name>
         <schema:teaches>Die Teilnehmenden verstehen die Lernziele und technischen Voraussetzungen der Fallstudie.</schema:teaches>
         <schema:timeRequired>PT1M</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-1/präambel/einführung.html" />
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-1/einstieg/einführung.html" />
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>

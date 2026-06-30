@@ -176,9 +176,9 @@
   "hasPart": [
     {
       "@type": "LearningResource",
-      "name": "Präambel",
+      "name": "einstieg",
       "description": "Beschreibung der Lernziele und technischer Voraussetzungen der Fallstudie.",
-      "url": "https://quadriga-dk.github.io/Text-Fallstudie-1/präambel/einführung.html",
+      "url": "https://quadriga-dk.github.io/Text-Fallstudie-1/einstieg/einführung.html",
       "timeRequired": "PT1M",
       "teaches": "Die Teilnehmenden verstehen die Lernziele und technischen Voraussetzungen der Fallstudie.",
       "educationalAlignment": [
