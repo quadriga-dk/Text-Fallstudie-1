@@ -11,7 +11,7 @@ Die Fallstudie umfasst erklärende Texte, ausführbaren Code und Übungen zur Se
 Weitere Hinweise zur Arbeit mit „Jupyter Book”, „Jupyter Notebooks” und zur Installation von Anaconda für die Nutzung im „Local Mode” vermitteln die unten verlinkten „QUADRIGA approved Tutorials”.
 
 ## Ressourcen
-Die Fallstudie lässt sich vollständig in jedem gängigen Browser auf einem einfachen Computer oder Tablet (zur Not auch auf einem Smartphone) durcharbeiten. Dies gilt auch für das Ausführen der „Jupyter Notebooks“ mittels „Colab“. Für das lokale Ausführen der „Jupyter Notebooks“ auf dem eigenen Computer reicht ein handelsüblicher Laptop bereits aus. Sofern das gesamte Forschungsprojekt der Fallstudie auf dem eigenen Computer reproduziert oder die Pipeline für ein eigenes Korpus adaptiert werden soll, empfehlen wir einen aktuellen und möglichst ressourcenstarken Computer, um die Rechenzeiten so gering wie möglich zu halten.
+Die Fallstudie lässt sich vollständig in jedem gängigen Browser auf einem einfachen Computer oder Tablet (zur Not auch auf einem Smartphone) durcharbeiten. Dies gilt auch für das Ausführen der „Jupyter Notebooks“ mittels „Colab“, da hierbei nicht auf den Speicherplatz und die Rechenkapazität des eigenen Geräts, sondern auf die Server von Google zurückgegriffen wird. Für das lokale Ausführen der „Jupyter Notebooks“ auf dem eigenen Computer reicht ein handelsüblicher Laptop bereits aus. Sofern das gesamte Forschungsprojekt der Fallstudie auf dem eigenen Computer reproduziert oder die Pipeline für ein eigenes Korpus adaptiert werden soll, empfehlen wir einen aktuellen und möglichst ressourcenstarken Computer, um die Rechenzeiten so gering wie möglich zu halten.
 
 
 `````{admonition} Tutorials
