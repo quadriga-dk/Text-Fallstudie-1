@@ -36,7 +36,9 @@ jobs:
       - name: Install packages
         run: |
           sudo apt-get update
-          sudo apt-get install --fix-missing tesseract-ocr-frk poppler-utils
+          sudo apt-get install --fix-missing tesseract-ocr poppler-utils
+          # deu_latf (Fraktur, früher frk) ist nicht als apt-Paket verfügbar – Modelldatei direkt laden
+          sudo wget -q https://github.com/tesseract-ocr/tessdata/raw/main/deu_latf.traineddata -P "$(find /usr/share/tesseract-ocr -name tessdata -type d | head -1)"
 
       # check all kernels
       - name: Log all available kernels
