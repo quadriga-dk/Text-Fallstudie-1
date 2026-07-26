@@ -37,7 +37,6 @@ The confusion matrix represents the distribution of correctly recognized charact
 <div id="toy-ocr" style="font-family:system-ui, sans-serif; max-width:650px; margin:15px 0;">
   <h3 style="margin-bottom:20px;">🎯 Mini Demo: Enter a string and and move the slider to see how each metrics change</h3>
 
-  <!-- GT input -->
   <label>Enter a text (Ground truth):</label>
   <input id="toyGT" value="BERLIN"
                     maxlength="20"
@@ -45,9 +44,10 @@ The confusion matrix represents the distribution of correctly recognized charact
   <span style="margin-left:9px; font-size:0.85rem; color:#666; font-style:italic;">
         (max 20 characters)
   </span>
+  <div style="margin-top:8px; font-size:0.9rem;">
+    <strong>💡 Tip:</strong> Enter a text at least <strong>11 characters</strong> to observe more meaningful differences across accuracy levels.
+  </div>
 
-
-  <!-- Slider -->
   <div style="margin-top:15px;">
     <p> At low recognition accuracy, a larger number of characters is typically missed leading to low recall, while precision may still remain relatively high         if only few incorrect characters are inserted. As the recognition accuracy increases, recall generally improves and the operating point in the                 Precision–Recall diagram changes accordingly.</p>
     <label>Simulated OCR accuracy:</label>
@@ -56,7 +56,6 @@ The confusion matrix represents the distribution of correctly recognized charact
     <span id="toySliderVal">80%</span>
   </div>
 
-  <!-- OCR output -->
   <div style="margin-top:15px;">
     <strong>Simulated OCR output:</strong>
     <div id="toyOCR" 
@@ -86,7 +85,6 @@ The confusion matrix represents the distribution of correctly recognized charact
 
 </div>
 
-  <!-- Metrics -->
   <div id="toyMetrics" style="margin-top:15px; line-height:1.4;"></div>
 
   <canvas id="prChart" width="420" height="320" style="margin-top:20px; border:1px solid #aaa; background:#111;"></canvas>
