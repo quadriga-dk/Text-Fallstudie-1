@@ -34,7 +34,7 @@ name: LLM postcorrection small hallucination
 
 ### 🚀 Your turn: Interaktives Beispiel
 
-The two interactive widgets below demonstrate the challenges of using LLMs for OCR correction we just saw above. You can also test different prompt strategies and see exactly how AI unpredictability affects the final text!
+The interactive widget below demonstrate the challenges of using LLMs for OCR correction we just saw above. You can also test different prompt strategies and see exactly how AI unpredictability affects the final text!
 
 *⚠️ Note: The widgets below are just simulations designed to replicate LLM behavior, and non-determinism based on pre-computed data.*
 
@@ -71,7 +71,7 @@ The two interactive widgets below demonstrate the challenges of using LLMs for O
 </div>
 
 <script>
-  // Data for the 3 Scenarios based on the user's OCR results
+
   const scenarios = {
     vague: {
       prompt: "Please correct",
@@ -109,7 +109,6 @@ The two interactive widgets below demonstrate the challenges of using LLMs for O
     expBox.style.color = data.expTextColor;
   }
 
-  // Initialize on load
   updateSimulator();
 </script>
 ```
