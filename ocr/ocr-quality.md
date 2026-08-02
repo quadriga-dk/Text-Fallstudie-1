@@ -38,14 +38,14 @@ The confusion matrix represents the distribution of correctly recognized charact
   <h3 style="margin-bottom:20px;">🎯 Mini Demo: Enter a string and and move the slider to see how each metrics change</h3>
 
   <label>Enter a text (Ground truth):</label>
-  <input id="toyGT" value="BERLIN"
+  <input id="toyGT" value="GRIPPEPANDEMIE"
                     maxlength="20"
-                    style="margin-left:6px; padding:4px; font-size:1rem; width:120px;"/>
+                    style="margin-left:6px; padding:4px; font-size:1rem; width:180px;"/>
   <span style="margin-left:9px; font-size:0.85rem; color:#666; font-style:italic;">
         (max 20 characters)
   </span>
   <div style="margin-top:8px; font-size:0.9rem;">
-    <strong>💡 Tip:</strong> Enter a text at least <strong>11 characters</strong> to observe more meaningful differences across accuracy levels.
+    <strong>💡 Tip:</strong> Enter a text at least <strong>11 characters long</strong> to observe more meaningful differences across accuracy levels.
   </div>
 
   <div style="margin-top:15px;">
