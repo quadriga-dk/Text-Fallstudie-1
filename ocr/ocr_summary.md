@@ -8,7 +8,7 @@
 
 **Qualität als zentraler Aspekt**
 
-Besonders wichtig ist das Verständnis der [OCR-Qualität](ocr-quality): Die Metriken Precision, Recall und F1-Score ermöglichen eine systematische Bewertung der Texterkennung. Dabei wurde deutlich, dass besonders bei historischen Dokumenten wie Zeitungen in Frakturschrift moderate Werte um 0.78-0.79 zu erwarten sind, was für bestimmte Anwendungen wie Volltextsuche ausreichend sein kann, für andere wie kritische Editionen jedoch nicht.
+Besonders wichtig ist das Verständnis der [OCR-Qualität](ocr-quality): Die Metriken Precision, Recall und F1-Score ermöglichen eine systematische Bewertung der Texterkennung. Dabei wurde deutlich, dass besonders bei historischen Dokumenten wie Zeitungen in Frakturschrift moderate Werte um 0.78-0.79 zu erwarten sind, was für bestimmte Anwendungen wie Volltextsuche ausreichend sein kann, für andere wie kritische Editionen jedoch nicht. Kritische Editionen sind wissenschaftliche Textausgaben, die eine Textfassung buchstabengenau wiedergeben und alle Abweichungen zwischen verschiedenen Textzeugen (Handschriften, Drucke) dokumentieren – hier ist jeder einzelne Zeichenfehler relevant.
 
 **Prozesscharakter der OCR**
 
