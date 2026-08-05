@@ -21,7 +21,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und jeden Versuch b
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
 
-**Geschätzte Zeit**: 15min
+**Geschätzte Zeit**: 5–10min
 
 Viel Erfolg!
 ````
@@ -111,6 +111,26 @@ from assessment import create_answer_box
 create_answer_box('1')
 ```
 
+````{admonition} Lösungen
+:class: solution, dropdown
+**Musterlösung**
+
+*Untersuchungsgegenstand:* Alle Ausgaben der "Zeit" von 1950 bis 1970 (als OCR-Volltext).
+
+*Definition "wissenschaftliche Themen":* Ein Artikel gilt als wissenschaftsbezogen, wenn er mindestens einen Begriff aus einer vorab festgelegten Stichwortliste enthält (z.B. "Forschung", "Wissenschaft", "Experiment", "Institut", "Studie", Disziplinbezeichnungen wie "Physik", "Medizin", "Chemie").
+
+*Quantifizierbare Indikatoren:*
+- Anzahl wissenschaftsbezogener Artikel pro Ausgabe bzw. pro Jahrgang
+- Anteil dieser Artikel an allen Artikeln einer Ausgabe (in %)
+- Durchschnittliche Artikellänge (Wörter) der wissenschaftsbezogenen Artikel
+- Häufigkeit der Stichwörter pro 10.000 Wörter (normalisiert, um unterschiedliche Ausgabenumfänge vergleichbar zu machen)
+
+*Zeitliche Auflösung:* Aggregation der Werte pro Jahr, um Veränderungen über den Zeitraum 1950–1970 als Zeitreihe darstellen zu können.
+
+**Hinweis**
+Es gibt nicht die eine "richtige" Operationalisierung. Vergleichen Sie Ihre eigene Antwort in Frage 2(b) systematisch mit den dort genannten Kriterien – entscheidend ist, dass Ihre Indikatoren quantifizierbar sind, sich ausschließlich auf das definierte Quellenkorpus stützen, über den gesamten Zeitraum konsistent erhoben werden können und praktisch umsetzbar sind.
+````
+
 ### Frage 2(b)
 Vergleichen Sie Ihre Antwort mit den folgenden Kriterien für eine geeignete Operationalisierung. Bewerten Sie Ihre eigene Antwort anhand dieser Kriterien
 
@@ -131,12 +151,12 @@ questions = [
             {
                 "answer": "Ja",
                 "correct": True,
-                "feedback": "✓ Korrekt!"
+                "feedback": "✓ Sehr gut!"
             },
             {
                 "answer": "Nein",
                 "correct": False,
-                    "feedback": """× Nicht korrekt! Die Indikatoren müssen in Zahlen ausdrückbar sein
+                    "feedback": """× Hier sollten Sie nachbessern: Die Indikatoren müssen in Zahlen ausdrückbar sein
                     - Beispiele für quantifizierbare Indikatoren:
                     - Worthäufigkeiten (z.B. Anzahl wissenschaftsbezogener Begriffe), Textlängen (z.B. Wörter pro Artikel), Prozentuale Anteile (z.B. Anteil am Gesamtumfang)
                     - Gegenbeispiele (nicht quantifizierbar):
@@ -151,12 +171,12 @@ questions = [
             {
                 "answer": "Ja",
                 "correct": True,
-                "feedback": "✓ Korrekt!"
+                "feedback": "✓ Sehr gut!"
             },
             {
                 "answer": "Nein",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Alle Messungen müssen im Korpus der "Zeit" durchführbar sein.
+                "feedback": """× Hier sollten Sie nachbessern: Alle Messungen müssen im Korpus der "Zeit" durchführbar sein.
                 - Zu beachten:
                 Verfügbarkeit aller Ausgaben im Untersuchungszeitraum,
                 Konsistenz des Zeitungsformats,
@@ -175,12 +195,12 @@ questions = [
             {
                 "answer": "Ja",
                 "correct": True,
-                "feedback": "✓ Korrekt!"
+                "feedback": "✓ Sehr gut!"
             },
             {
                 "answer": "Nein",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Die Messungen müssen von 1950–1970 konsistent möglich sein
+                "feedback": """× Hier sollten Sie nachbessern: Die Messungen müssen von 1950–1970 konsistent möglich sein
                 - Wichtige Aspekte:
                 Gleichbleibende Verfügbarkeit der Daten,
                 Vergleichbarkeit der Messungen über Zeit,
@@ -199,12 +219,12 @@ questions = [
             {
                 "answer": "Ja",
                 "correct": True,
-                "feedback": "✓ Korrekt!"
+                "feedback": "✓ Sehr gut!"
             },
             {
                 "answer": "Nein",
                 "correct": False,
-                "feedback": """× Nicht korrekt! - Die Methoden müssen mit verfügbaren Ressourcen durchführbar sein
+                "feedback": """× Hier sollten Sie nachbessern: Die Methoden müssen mit verfügbaren Ressourcen durchführbar sein
                 - Praktische Aspekte:
                 Verfügbare Zeit und Personal,
                 Technische Möglichkeiten (z.B. OCR, Textanalysetools),
