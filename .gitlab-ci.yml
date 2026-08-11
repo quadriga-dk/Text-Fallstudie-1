@@ -1,0 +1,22 @@
+image: python:3.11
+
+pages:
+  stage: deploy
+
+  before_script:
+    - apt-get update
+    - apt-get install -y tesseract-ocr poppler-utils wget
+    - wget -q https://github.com/tesseract-ocr/tessdata/raw/main/deu_latf.traineddata -P "$(find /usr/share/tesseract-ocr -name tessdata -type d | head -1)"
+    - pip install -r requirements.txt
+
+  script:
+    - jupyter-book build .
+    - mkdir public
+    - cp -r _build/html/* public/
+
+  artifacts:
+    paths:
+      - public
+
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
