@@ -6,6 +6,8 @@
 ---
 height: 300px
 name: OCR
+---
+Zeitungssnippet der „Berliner Morgenpost” vom 15. Oktober 1918 mit simuliertem OCR-Overlay. Digitalisat bereitgestellt vom <a href="https://zefys.staatsbibliothek-berlin.de/" class="external-link" target="_blank">„ZEitungsinFormationssYStem der Staatsbibliothek zu Berlin”</a> (ZEFYS); OCR-Overlay: eigene Darstellung.
 ```
 
 ## Warum benutzen wir OCR?
