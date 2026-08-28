@@ -83,6 +83,7 @@ exclude_patterns:
     data-input/aux/*,
     word_search/parse_conll_make_search.ipynb,
     README.md,
+    data/aux_postcorr/README.md,
     .venv,
     Checkliste_Qualitätssicherung.md,
     LICENSE.md,
