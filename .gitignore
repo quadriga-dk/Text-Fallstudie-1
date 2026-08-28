@@ -8,3 +8,5 @@ venv/
 **/.ipynb_checkpoints
 .claude/
 .schema_cache/
+# von Sphinx beim Build erzeugt (gettext_auto_build)
+_locale/**/*.mo

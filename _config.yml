@@ -27,6 +27,7 @@ sphinx:
     - sphinx_apa_references
   config:
     language: de
+    locale_dirs: ["_locale/"]
     bibtex_reference_style: author_year
     html_show_copyright: false
     html_static_path: ["_static"]

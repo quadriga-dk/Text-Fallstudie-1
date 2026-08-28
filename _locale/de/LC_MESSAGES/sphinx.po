@@ -1,0 +1,41 @@
+# Deutsche Übersetzungen für Theme-Strings, die weder Sphinx selbst noch
+# sphinx-book-theme übersetzen. pydata-sphinx-theme liefert (Stand 0.15.2)
+# keinen deutschen Katalog; die msgids liegen aber in der sphinx-Domain und
+# lassen sich daher hier überschreiben.
+#
+# Sphinx kompiliert diese Datei beim Build automatisch zu sphinx.mo
+# (gettext_auto_build ist standardmäßig aktiv) – die .mo-Datei gehört
+# deshalb nicht ins Repository.
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Sprungmarke am Seitenanfang (Barrierefreiheit)
+msgid "Skip to main content"
+msgstr "Zum Hauptinhalt springen"
+
+# Button unten rechts
+msgid "Back to top"
+msgstr "Zurück nach oben"
+
+# Logo-/Breadcrumb-Link zur Startseite
+msgid "Home"
+msgstr "Startseite"
+
+# Tooltips der Blätter-Navigation am Seitenende
+msgid "previous page"
+msgstr "vorherige Seite"
+
+msgid "next page"
+msgstr "nächste Seite"
+
+# Suchseite ohne JavaScript
+msgid "Please activate JavaScript to enable the search functionality."
+msgstr "Bitte aktivieren Sie JavaScript, um die Suchfunktion zu nutzen."
+
+msgid "Version warning"
+msgstr "Versionshinweis"
