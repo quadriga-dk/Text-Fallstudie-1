@@ -85,12 +85,36 @@ Das Python-Paket `pdf2image`, das wir zur Umwandlung von PDF-Seiten in Bilder ve
 
 ### Windows
 
-Installieren Sie Poppler über Conda (empfohlen, wenn Sie Anaconda verwenden):
+Für Poppler gibt es unter Windows keinen Installer. Es gibt zwei Wege — Variante A ist unabhängig von Anaconda und erfahrungsgemäß der zuverlässigere.
+
+**Variante A — Vorkompilierte Binärdateien**
+
+1. Laden Sie das aktuelle Release (`Release-xx.xx.x-x.zip`) herunter: <a href="https://github.com/oschwartz10612/poppler-windows/releases" class="external-link" target="_blank">github.com/oschwartz10612/poppler-windows/releases</a>
+2. Entpacken Sie das Archiv an einen festen Ort, z.\ B. nach `C:\poppler-24.08.0`.
+3. Fügen Sie den Unterordner `Library\bin` (also z.\ B. `C:\poppler-24.08.0\Library\bin`) zur PATH-Umgebungsvariable hinzu — nicht den Ordner `poppler-24.08.0` selbst.
+
+**Variante B — Über Conda (wenn Sie Anaconda verwenden)**
+
 ```bash
 conda install -c conda-forge poppler
 ```
 
-Alternativ können Sie vorkompilierte Binärdateien herunterladen: <a href="https://github.com/oschwartz10612/poppler-windows/releases" class="external-link" target="_blank">github.com/oschwartz10612/poppler-windows/releases</a>. Entpacken Sie das Archiv und fügen Sie den `bin`-Ordner zur PATH-Umgebungsvariable hinzu.
+```{admonition} Conda unter Windows: zwei häufige Stolpersteine
+:class: warning
+**`conda` wird nicht gefunden.** In der normalen Eingabeaufforderung (`cmd`) ist `conda` in der Regel nicht verfügbar. Verwenden Sie stattdessen die **Anaconda Prompt** (Startmenü → *Anaconda3* → *Anaconda Prompt*). Dort ist die Umgebung bereits korrekt gesetzt. Wir raten davon ab, die PATH-Variable für Anaconda von Hand zu setzen — Anaconda empfiehlt dies ausdrücklich nicht, und der Befehl `setx PATH ...` kann eine zu lange PATH-Variable abschneiden.
+
+**Die Installation bricht mit einem Solver-Fehler ab.** Wechseln Sie in diesem Fall auf den klassischen Solver und wiederholen Sie die Installation:
+
+    conda config --set solver classic
+    conda install -c conda-forge poppler
+
+**Ganz ohne Kommandozeile** geht es über den **Anaconda Navigator**: Menüpunkt *Environments* → Umgebung `base (root)` auswählen → in der Drop-down-Liste von *Installed* auf *All* wechseln → im Suchfeld `poppler` eingeben → Paket anhaken → *Apply*.
+```
+
+```{admonition} Automatische Suche in den Notebooks
+:class: hint
+Wie bei Tesseract versuchen die Notebooks auch bei Poppler, die Programme selbst zu finden, falls sie nicht über die PATH-Variable erreichbar sind: durchsucht werden das Conda-Environment, in dem das Notebook läuft (`…\Library\bin`), sowie Ordner der Form `poppler*\Library\bin` unter `C:\`, in `C:\Program Files` und in `%LOCALAPPDATA%\Programs`.
+```
 
 ### macOS
 
