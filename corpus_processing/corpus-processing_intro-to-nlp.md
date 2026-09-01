@@ -56,7 +56,7 @@ Für Python gibt es verschiedene Bibliotheken, mit denen die Verarbeitung von Te
 ```
 `````{admonition} Zum Begriff der Pipeline
 :class: hinweis, dropdown
-Die verschiedenen NLP-Methoden bauen teilweise aufeinander auf. Grundlegend wird ein Text zuerst tokenisiert, dann folgt PoS-Tagging und die Lemmatisierung. Diese Abfolge der einzelnen Prozesse wird im NLP häufig mit der Metapher einer Pipeline beschrieben. 
+Die verschiedenen NLP-Methoden bauen teilweise aufeinander auf. Grundlegend wird ein Text zuerst tokenisiert, dann folgt <a href="https://de.wikipedia.org/wiki/PoS-Tagging" class="external-link" target="_blank">PoS-Tagging</a> (die automatische Bestimmung der Wortart, z.B. Nomen oder Verb) und die Lemmatisierung. Diese Abfolge der einzelnen Prozesse wird im NLP häufig mit der Metapher einer Pipeline beschrieben. 
 `````
 
 ### NLP mit spaCy 
