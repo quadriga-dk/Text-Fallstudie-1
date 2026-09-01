@@ -44,7 +44,7 @@ Die vorliegende Fallstudie bereitet – in Form eines [„Jupyter Books”](intr
 Anhand von historischen Tageszeitungen wird dabei einer Frage aus dem Feld der Digital History nachgegangen: **Welchen quantitativen Mustern folgte die Berichterstattung über die Spanische Grippe in den Jahren 1918/1919?**
 
 ## Zielgruppe
-Die Fallstudie richtet sich an Geisteswissenschaftler:innen auf fortgeschrittener Qualifikationsstufe. Kenntnisse der Digital Humanities sind nicht erforderlich, wohl aber eine prinzipielle Neugier und Offenheit gegenüber digitalen Arbeitsweisen und quantifizierenden Forschungsansätzen.
+Die Fallstudie richtet sich an Geisteswissenschaftler:innen auf fortgeschrittener Qualifikationsstufe. Eine vorherige grundlegende Auseinandersetzung mit den Digital Humanities ist hilfreich, aber nicht erforderlich – auch ohne Vorkenntnisse können die Lernmaterialien bearbeitet werden, allerdings sollte dann ein erhöhter Zeitaufwand eingeplant werden. Wichtig ist vor allem eine prinzipielle Neugier und Offenheit gegenüber digitalen Arbeitsweisen und quantifizierenden Forschungsansätzen.
 
 ## Struktur der Fallstudie
 Die Gliederung der Fallstudie lässt sich jederzeit durch die Menüleiste links im Browser nachvollziehen. Insgesamt vollzieht die Fallstudie 6 Schritte:
