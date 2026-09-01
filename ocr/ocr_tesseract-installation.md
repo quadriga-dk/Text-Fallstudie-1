@@ -29,7 +29,11 @@ Sollte `deu_latf` nach der Installation nicht gefunden werden (z.\ B. Fehlermeld
 
 ```{admonition} PATH-Variable unter Windows
 :class: warning
-Damit `pytesseract` Tesseract finden kann, muss der Installationspfad in der **PATH-Umgebungsvariable** eingetragen sein. Der Installer bietet diese Option an — aktivieren Sie sie.
+Damit `pytesseract` Tesseract finden kann, muss der Installationspfad in der **PATH-Umgebungsvariable** eingetragen sein. Der Installer bietet diese Option an (*Add Tesseract to PATH* bzw. *Additional Tasks*) — aktivieren Sie sie. Bei einer Installation ohne Administratorrechte wird dieser Schritt häufig übersprungen.
+
+**Pfad nachträglich hinzufügen:** Drücken Sie die Windows-Taste, geben Sie `Umgebungsvariablen` ein und wählen Sie *Umgebungsvariablen für dieses Konto bearbeiten*. Markieren Sie unter *Benutzervariablen* den Eintrag `Path`, klicken Sie auf *Bearbeiten* → *Neu* und tragen Sie das Installationsverzeichnis ein (z.\ B. `C:\Program Files\Tesseract-OCR` oder `C:\Users\IhrName\AppData\Local\Programs\Tesseract-OCR`). Bestätigen Sie mit *OK*.
+
+Wir raten davon ab, die PATH-Variable mit `setx PATH "%PATH%;…"` zu setzen: Der Befehl schneidet die Variable bei 1024 Zeichen ab und schreibt — in einer Eingabeaufforderung mit Administratorrechten ausgeführt — die zusammengesetzte System- und Benutzervariable in die Benutzervariable zurück. Beides kann die PATH-Variable dauerhaft beschädigen.
 
 Die Notebooks dieser Fallstudie versuchen zusätzlich, `tesseract.exe` automatisch an den üblichen Installationsorten zu finden, falls es nicht über die PATH-Variable erreichbar ist:
 
@@ -41,6 +45,15 @@ Falls Sie Tesseract an einem anderen Ort installiert haben, geben Sie den Pfad z
 
     import pytesseract
     pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+```
+
+```{admonition} Tesseract wird in Jupyter Notebook (Anaconda) nicht gefunden
+:class: hint
+Eine Änderung an der PATH-Variable wirkt sich nur auf **neu gestartete** Programme aus. Läuft Jupyter Notebook bereits — etwa über den Anaconda Navigator —, kennt es die alte Umgebung weiterhin, auch nach einem Neustart des Kernels.
+
+Beenden Sie in diesem Fall Jupyter Notebook **und** den Anaconda Navigator vollständig und starten Sie beide neu. Erst dann steht Tesseract im Notebook zur Verfügung.
+
+Da die Notebooks `tesseract.exe` bei Bedarf selbst an den oben genannten Orten suchen, ist dieser Schritt in der Regel nicht nötig — er hilft aber, wenn Sie Tesseract an einem anderen Ort installiert haben.
 ```
 
 ### macOS
