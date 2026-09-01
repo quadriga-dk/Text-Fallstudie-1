@@ -31,7 +31,13 @@ Sollte `deu_latf` nach der Installation nicht gefunden werden (z.\ B. Fehlermeld
 :class: warning
 Damit `pytesseract` Tesseract finden kann, muss der Installationspfad in der **PATH-Umgebungsvariable** eingetragen sein. Der Installer bietet diese Option an — aktivieren Sie sie.
 
-Falls Tesseract trotzdem nicht gefunden wird, können Sie den Pfad auch direkt in Python angeben:
+Die Notebooks dieser Fallstudie versuchen zusätzlich, `tesseract.exe` automatisch an den üblichen Installationsorten zu finden, falls es nicht über die PATH-Variable erreichbar ist:
+
+* `C:\Program Files\Tesseract-OCR\` (Installation für alle Benutzer\*innen — Standard)
+* `C:\Program Files (x86)\Tesseract-OCR\`
+* `%LOCALAPPDATA%\Programs\Tesseract-OCR\`, also z.\ B. `C:\Users\IhrName\AppData\Local\Programs\Tesseract-OCR\` (Installation nur für die eigene Benutzerin bzw. den eigenen Benutzer — dies wählt der Installer, wenn er ohne Administratorrechte ausgeführt wird)
+
+Falls Sie Tesseract an einem anderen Ort installiert haben, geben Sie den Pfad zu Beginn des Notebooks einmal manuell an (die Angabe gilt für die aktuelle Python-Session):
 
     import pytesseract
     pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
