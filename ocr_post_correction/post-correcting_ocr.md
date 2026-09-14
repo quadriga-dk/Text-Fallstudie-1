@@ -17,10 +17,10 @@ Das wird ein lntensives Jahr.
 ```
 
 **Nachbearbeitet:**
-```
+<div style="background-color: #f8f9fa; border: 1px solid #ced4da; padding: 15px; border-radius: 5px; font-family: monospace; white-space: pre-wrap; line-height: 1.5; color: #333;">
 Der heutige Wert beläuft sich auf 1000€. 
-Das wird ein intensives Jahr.
-```
+Das wird ein <span style="background-color: #d4edda; font-weight: bold; padding: 0 2px; border-radius: 3px;">intensives</span> Jahr.
+</div>
 
 ### 2. Korrektur von Tippfehlern und Grammatik
 
@@ -32,9 +32,9 @@ Die Vereinbarung wurde am 15. März 2023 unterschireben.
 ```
 
 **Nachbearbeitet:**
-```
-Die Vereinbarung wurde am 15. März 2023 unterschrieben.
-```
+<div style="background-color: #f8f9fa; border: 1px solid #ced4da; padding: 15px; border-radius: 5px; font-family: monospace; white-space: pre-wrap; line-height: 1.5; color: #333;">
+Die Vereinbarung wurde am 15. März 2023 <span style="background-color: #fff3cd; font-weight: bold; padding: 0 2px; border-radius: 3px;">unterschrieben</span>.
+</div>
 
 ### 3. Wiederherstellung der Formatierung
 
@@ -66,7 +66,7 @@ Die Methode basiert auf...
 
 ### 4. Überprüfung auf Vollständigkeit
 
-Manchmal fehlen nach der OCR-Erkennung Teile des Textes, insbesondere wenn das Originaldokument beschädigt ist oder schlecht gescannt wurde. 
+Manchmal fehlen nach der OCR-Erkennung Teile des Textes, insbesondere wenn das Originaldokument beschädigt ist oder schlecht gescannt wurde. Ob Textteile fehlen, lässt sich meist durch einen Abgleich mit dem Originaldokument (z.B. dem eingescannten Bild) feststellen; liegt dieses nicht vor, hilft es, den Textfluss auf inhaltliche und stilistische Brüche wie abrupt endende Sätze zu prüfen.
 
 **Original (nach OCR):**
 ```
@@ -75,10 +75,10 @@ Zur weiteren Überprüfung...
 ```
 
 **Nachbearbeitet:**
-```
-Die Forschungsergebnisse zeigen, dass die Effizienz der neuen Methode signifikant höher ist.
-Zur weiteren Überprüfung der Ergebnisse wurde eine zweite Studie durchgeführt.
-```
+<div style="background-color: #f8f9fa; border: 1px solid #ced4da; padding: 15px; border-radius: 5px; font-family: monospace; white-space: pre-wrap; line-height: 1.5; color: #333;">
+Die Forschungsergebnisse zeigen, dass<span style="background-color: #cce5ff; font-weight: bold; padding: 0 2px; border-radius: 3px;"> die Effizienz der neuen Methode signifikant höher ist.</span>
+Zur weiteren Überprüfung<span style="background-color: #cce5ff; font-weight: bold; padding: 0 2px; border-radius: 3px;"> der Ergebnisse wurde eine zweite Studie durchgeführt.</span>
+</div>
 
 ## 🚀 Your turn: Interaktives Beispiel
 
