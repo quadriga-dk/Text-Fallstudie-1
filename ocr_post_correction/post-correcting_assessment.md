@@ -315,17 +315,13 @@ display_quiz(multiple_choice_7, colors=colors.jupyterquiz)
 
 ## Frage 8
 
-Analysieren Sie die folgenden Qualitätsmetriken vor und nach der regelbasierten Korrektur:
+Vergleichen Sie die folgenden Qualitätsmetriken vor und nach der regelbasierten Korrektur:
 
-Vor Korrektur:
-- Precision: 0.778
-- Recall: 0.7932
-- F1-score: 0.7855
-
-Nach Korrektur:
-- Precision: 0.8091
-- Recall: 0.8248
-- F1-score: 0.8169
+| Metrik | Vor Korrektur | Nach Korrektur | Veränderung |
+|--------|---------------|-----------------|-------------|
+| Precision | 0.778 | 0.8091 | +4.00 % |
+| Recall | 0.7932 | 0.8248 | +3.98 % |
+| F1-score | 0.7855 | 0.8169 | +4.00 % |
 
 (Wählen Sie alle zutreffenden Antworten aus.)
 
@@ -347,9 +343,9 @@ multiple_choice_8 = [{
             "feedback": """× Nicht korrekt. Die Precision stieg von 0.778 auf 0.8091 (Verbesserung um 0.0311), während der Recall von 0.7932 auf 0.8248 stieg (Verbesserung um 0.0316), was eine leicht stärkere Verbesserung des Recalls bedeutet."""
         },
         {
-            "answer": "Der Recall hat die stärkste prozentuale Verbesserung erfahren",
+            "answer": "Alle drei Metriken haben sich um einen ähnlichen Prozentsatz (rund 4 %) verbessert",
             "correct": True,
-            "feedback": """✓ Richtig! Die Verbesserung des Recalls ist prozentual am stärksten, was auf eine bessere Erkennung vorhandener Zeichen und eine effektivere Normalisierung hindeutet."""
+            "feedback": """✓ Richtig! Prozentual verbessern sich Precision (+4.00 %), Recall (+3.98 %) und F1-Score (+4.00 %) nahezu gleich stark. Obwohl der Recall die größte absolute Verbesserung zeigt (+0.0316), ist seine prozentuale Verbesserung sogar minimal geringer als die von Precision und F1-Score – ein gutes Beispiel dafür, dass absolute und prozentuale Veränderung nicht dasselbe aussagen."""
         },
         {
             "answer": "Der F1-Score ist um etwa 3 Prozentpunkte gestiegen",
@@ -610,6 +606,10 @@ display_quiz(multiple_choice_14, colors=colors.jupyterquiz)
 :tags: [remove-input]
 from jupyterquiz import display_quiz
 
+"""
+Geschätzte Zeit: 15 Minuten
+"""
+
 import sys
 sys.path.append("..")
 from quadriga import colors
@@ -621,7 +621,7 @@ multiple_choice_15 = [{
         {
             "answer": "Begrenzte Kontextfenster der LLMs",
             "correct": True,
-            "feedback": """✓ Richtig! LLMs haben typischerweise begrenzte Eingabe- und Ausgabegrößen (Kontextfenster), was die Verarbeitung längerer Texte erschwert und eine Aufteilung in kleinere Abschnitte erfordert."""
+            "feedback": """✓ Richtig! LLMs haben typischerweise begrenzte Eingabe- und Ausgabegrößen (Kontextfenster), was die Verarbeitung längerer Texte erschwert. Ein Korpus von 10.000 Seiten müsste daher in viele kleine Abschnitte aufgeteilt werden, was zusätzlichen Aufwand bedeutet und das Risiko von Fehlern an den Bruchstellen zwischen den Abschnitten erhöht."""
         },
         {
             "answer": "Hohe Kosten für API-Zugriffe",
@@ -631,12 +631,12 @@ multiple_choice_15 = [{
         {
             "answer": "Schwierige Nachvollziehbarkeit der Korrekturen",
             "correct": True,
-            "feedback": """✓ Richtig! Aufgrund der \"Black-Box\"-Natur von LLMs kann es schwierig sein nachzuvollziehen, welche Änderungen vorgenommen wurden und warum, was die Qualitätskontrolle erschwert."""
+            "feedback": """✓ Richtig! Aufgrund der \"Black-Box\"-Natur von LLMs kann es schwierig sein nachzuvollziehen, welche Änderungen vorgenommen wurden und warum. Bei einem Korpus dieser Größenordnung ist eine lückenlose manuelle Kontrolle aller Änderungen kaum praktikabel, was die systematische Qualitätssicherung zusätzlich erschwert."""
         },
         {
             "answer": "Gleichbleibend hohe Qualität bei allen Korrekturen",
             "correct": False,
-            "feedback": """× Nicht korrekt. Wegen der nicht-deterministischen Natur von LLMs und variierenden Texteigenschaften ist eine gleichbleibende Korrekturqualität über den gesamten Korpus hinweg nicht garantiert."""
+            "feedback": """× Nicht korrekt. Wegen der nicht-deterministischen Natur von LLMs und variierenden Texteigenschaften (z.B. unterschiedliche Schriftarten, Druckqualität oder Themen über die 10.000 Seiten hinweg) ist eine gleichbleibende Korrekturqualität über den gesamten Korpus hinweg nicht garantiert."""
         }
     ]
 }]
