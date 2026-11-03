@@ -1,0 +1,233 @@
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v2.0.0/schema.json
+title: Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie
+authorLIST:
+- familyName: Skorinkin
+  givenName: Daniil
+  orcid: https://orcid.org/0000-0002-1845-9974
+  affiliation: Universität Potsdam
+- familyName: Sluyter-Gäthje
+  givenName: Henny
+  orcid: https://orcid.org/0000-0003-2969-3237
+  affiliation: Universität Potsdam
+- familyName: Trilcke
+  givenName: Peer
+  orcid: https://orcid.org/0000-0002-1421-4320
+  affiliation: Universität Potsdam
+keywordLIST:
+- OCR
+- TODO
+description: Dieses interaktive Lehrbuch vermittelt Methoden für die automatische Erstellung, Aufbereitung
+  und Analyse eines Textkorpus. Im Zentrum steht die Frage, wie sich die mediale Aufmerksamkeit auf die
+  Spanische Grippe in zeitgenössischen Berliner Zeitungen verändert. Der Fokus des Lehrbuchs liegt auf
+  der Korpuserstellung mittels Optical Character Recognition (OCR) mit pytesseract. Das Lehrbuch ist in
+  sechs Kapitel aufgeteilt. Es wird zuerst in die Fragestellung und deren Operationalisierung eingeführt,
+  dann werden Methoden des Korpusaufbaus beschrieben. Danach wird in die Methode der OCR sowie in die
+  Nachbereichtung des Outputs eingeführt. Das Textkorpus wird dann mit spacy lemmatisiert und schlussendlich
+  wird eine diachrone Frequenzanalyse auf dem annotierten Korpus ausgeführt.
+tableOfContents: |-
+  - Einstieg
+  - Fragestellung und Operationalisierung. Einführung in die Fallstudie
+  - Korpusaufbau. Auswählen, sammeln, dokumentieren
+  - OCR. Von Bild zu Text
+  - OCR-Nachbearbeitung: manuell, automatisch, LLMs
+  - Korpusverarbeitung. Von Strings zu Token
+  - Korpusanalyse. Von Häufigkeiten zu Diagrammen
+  - Reflexion
+  - Abschluss
+disciplineLIST:
+- übergreifend
+researchObjectTypeLIST:
+- übergreifend
+targetGroupLIST:
+- Promovierende
+- Forschende (PostDoc)
+- Hochschullehrende
+timeRequired: PT12H
+language: de
+contributorLIST:
+- familyName: Schnaitter
+  givenName: Hannes
+  orcid: https://orcid.org/0000-0002-1602-6032
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+- familyName: Samoilova
+  givenName: Evgenia
+  orcid: https://orcid.org/0000-0003-3858-901X
+  affiliation: Universität Potsdam
+- familyName: Islam
+  givenName: Lamia
+  affiliation: Universität Potsdam
+identifier: https://doi.org/10.5281/zenodo.15682652
+identifierGit: https://github.com/quadriga-dk/Text-Fallstudie-1
+identifierOER: https://quadriga-dk.github.io/Text-Fallstudie-1/
+chapterLIST:
+- title: einstieg
+  description: Beschreibung der Lernziele und technischer Voraussetzungen der Fallstudie.
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/einstieg/einführung.html
+  timeRequired: PT1M
+  learningGoal: Die Teilnehmenden verstehen die Lernziele und technischen Voraussetzungen der Fallstudie.
+  learningObjectiveLIST:
+  - description: Die Teilnehmenden kennen die Lernziele und technischen Voraussetzungen der Fallstudie.
+    competency: nicht anwendbar
+    dataFlow: nicht anwendbar
+    bloomsCategory: 2 Verstehen
+- title: Fragestellung und Operationalisierung. Einführung in die Fallstudie
+  description: Dieses Kapitel bildet den Auftakt der Fallstudie und dient der Klärung des Erkenntnisinteresses,
+    das die dann folgende Vorbereitung und Aufbereitung des Forschungsgegenstands (Korpus) und schließlich
+    die Analyse leitet.
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/research_question/research-question_intro.html
+  timeRequired: PT45M
+  learningGoal: Grundlagen korpusbasierter geisteswissenschaftlicher Forschung
+  learningObjectiveLIST:
+  - description: Die Entwicklung einer Digital Humanities-Fragestellung kann am Beispiel der Medienwellen-Forschung
+      zur Spanischen Grippe nachvollzogen und erläutert werden.
+    competency: nicht anwendbar
+    dataFlow: nicht anwendbar
+    bloomsCategory: 2 Verstehen
+  - description: Der Operationalisierungsprozess kann am Beispiel der Spanischen Grippe nachvollzogen
+      und auf andere Forschungsfragen übertragen werden.
+    competency: 1.1 Identifikation
+    dataFlow: 1 Planung
+    bloomsCategory: 3 Anwenden
+- title: Korpusaufbau. Auswählen, sammeln, dokumentieren
+  description: Der Forschungsgegenstand wird in Form eines Korpus aufbereitet.
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/corpus_collection/corpus-collection_intro.html
+  timeRequired: PT90M
+  learningGoal: Ansätze des Korpusaufbaus und Erstellung basaler Metadaten
+  learningObjectiveLIST:
+  - description: Korpora können als geisteswissenschaftliche Forschungsobjekte definiert und deren wesentliche
+      Merkmale beschrieben werden.
+    competency: 3.2 Erschließung
+    dataFlow: 3 Management
+    bloomsCategory: 2 Verstehen
+  - description: Die vier Hauptformate digitaler Texte (Bilddigitalisate, Plain Text, XML/TEI, CSV) können
+      anhand ihrer charakteristischen Eigenschaften unterschieden und deren Vor- und Nachteile für spezifische
+      Anwendungsfälle analysiert werden.
+    competency: 3.2 Erschließung
+    dataFlow: 3 Management
+    bloomsCategory: 4 Analysieren
+  - description: Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS, METS) und deren charakteristische
+      Elemente für Korpora und Einzeldokumente können beschrieben werden.
+    competency: 3.2 Erschließung
+    dataFlow: 3 Management
+    bloomsCategory: 2 Verstehen
+  - description: Der schrittweise Prozess des praktischen Korpusaufbaus (Konzeptentwicklung, Metadatenerstellung
+      und Datensammlung) kann am Beispiel eines Zeitungskorpus beschrieben werden.
+    competency: 3.2 Erschließung
+    dataFlow: 3 Management
+    bloomsCategory: 2 Verstehen
+- title: OCR. Von Bild zu Text
+  description: In diesem Kapitel lernen wir, wie man mit OCR Bilder in Text umwandelt.
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/ocr/ocr_intro.html
+  timeRequired: PT120M
+  learningGoal: OCR-basierte Korpuserstellung und Qualitätsbewertung
+  learningObjectiveLIST:
+  - description: Der Prozess der Optical Character Recognition (OCR) für die Korpuserstellung kann beschrieben
+      und Tools zur Durchführung der OCR aufgezählt werden.
+    competency: 2.1 Erhebung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 2 Verstehen
+  - description: Die notwendigen Schritte zur Verarbeitung ein- und mehrseitiger PDFs zu Text können aufgezählt
+      und die Unterschiede zwischen Ursprungs- und Zielformat erklärt werden.
+    competency: 2.1 Erhebung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 2 Verstehen
+  - description: Die grundlegenden Metriken zur OCR-Qualitätsevaluation (Präzision, Recall, F1-Score)
+      können erläutert und deren Bedeutung für die Bewertung von OCR-Systemen beschrieben werden.
+    competency: 2.1 Erhebung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 2 Verstehen
+  - description: Die Schritte zur Qualitätsmessung eines OCR-Outputs können aufgezählt und die Qualitätsmaße
+      interpretiert werden.
+    competency: 2.1 Erhebung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 3 Anwenden
+- title: 'OCR-Nachbearbeitung: manuell, automatisch, LLMs'
+  description: In diesem Kapitel werden wir die Ergebnisse der OCR nachbearbeiten.
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/ocr_post_correction/post-correcting_intro.html
+  timeRequired: PT90M
+  learningGoal: OCR-Nachbearbeitung und Qualitätsverbesserung
+  learningObjectiveLIST:
+  - description: Verschiedene Verfahren der OCR-Nachbearbeitung können beschrieben und deren Einsatzzwecke
+      unterschieden werden.
+    competency: 2.3 Aufbereitung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 2 Verstehen
+  - description: Regelbasierte Ansätze zur OCR-Nachkorrektur können beschrieben und deren Auswirkungen
+      auf die OCR-Qualität anhand von Metriken erläutert werden.
+    competency: 2.2 Validierung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 4 Analysieren
+  - description: Die grundlegenden Herausforderungen beim Einsatz von Large Language Models für die OCR-Nachbearbeitung
+      können beschrieben werden.
+    competency: 2.3 Aufbereitung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 2 Verstehen
+- title: Korpusverarbeitung. Von Strings zu Token
+  description: Die im Korpus enthaltenen Textdateien werden mit linguistischen Informationen angereichert.
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/corpus_processing/corpus-processing_intro.html
+  timeRequired: PT60M
+  learningGoal: Korpusverarbeitung mit Natural Language Processing
+  learningObjectiveLIST:
+  - description: Die Grundkonzepte des Natural Language Processing können erklärt und die Funktionen von
+      Tokenisierung und Lemmatisierung für die Textanalyse beschrieben werden.
+    competency: 2.3 Aufbereitung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 2 Verstehen
+  - description: Die notwendigen Schritte zur automatischen Annotation eines Texts können aufgezählt und
+      Vorteile der Tokenisierung gegenüber einfacheren Methoden der Worttrennung genannt werden.
+    competency: 2.3 Aufbereitung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 1 Erinnern
+- title: Korpusanalyse. Von Häufigkeiten zu Diagrammen
+  description: Nachdem die Korpuserstellung und -anreicherung abgeschlossen ist, wird in diesem Kapitel
+    zur Forschungsfrage zurückgekehrt. Es soll die öffentliche Aufmerksamkeit für die spanische Grippe
+    im Zeitaum von 1918-1920 an Hand von Worthäufigkeiten derjenigen Wörter gemessen werden, die direkt
+    oder indirekt auf die spanische Grippe verweisen.
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/corpus_analysis/corpus-analysis_intro.html
+  timeRequired: PT90M
+  learningGoal: Frequenzanalysen semantischer Felder
+  learningObjectiveLIST:
+  - description: Das Konzept des semantischen Feldes kann erklärt, der Unterschied zwischen absoluten
+      und relativen Häufigkeiten beschrieben und die Darstellungsmethoden des Liniendiagramms und der
+      Key Word in Context (KWIC)-Anzeige interpretiert werden.
+    competency: 4.1 Datenanalyse
+    dataFlow: 4 Analyse
+    bloomsCategory: 5 Bewerten
+  - description: Die notwendigen Schritte zur Frequenzanalyse eines semantischen Felds können aufgezählt,
+      Unterschiede in der Berechnung der Häufigkeiten benannt und die Ergebnisse reflektiert werden.
+    competency: 4.1 Datenanalyse
+    dataFlow: 4 Analyse
+    bloomsCategory: 5 Bewerten
+  - description: Die Darstellungsmethode Keywords in Context kann beschrieben, Wörter zur Anzeige ausgewählt
+      und diese angezeigt werden.
+    competency: 4.2 Visualisierung
+    dataFlow: 4 Analyse
+    bloomsCategory: 3 Anwenden
+- title: Reflexion
+  description: Auch wenn es uns gelungen ist, das Ziel der Fallstudie zu erreichen und unsere eingangs
+    formulierte Forschungsfrage nach den "Medienwellen" der Spanischen Grippe insofern exemplarisch zu
+    beantworten, als wir tatsächliche eine wellenartige Entwicklung der quantitative verstandenen Aufmerksamkeit
+    in ausgewählten Berliner Tageszeitungen nachweisen konnten, gibt es mehrere Punkte, die abschließend
+    kritisch zu reflektieren sind.
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/reflection/reflection_reflection.html
+  timeRequired: PT30M
+  learningGoal: Kritische Bewertung der Reichweite und Limitationen
+  learningObjectiveLIST:
+  - description: Die methodischen Limitationen einer Digital Humanities-Fallstudie können benannt werden.
+    competency: 4.3 Interpretation
+    dataFlow: 4 Analyse
+    bloomsCategory: 5 Bewerten
+dateIssued: '2024-06-17'
+dateModified: '2026-04-14'
+version: 1.0.0-beta.4
+contextOfCreation: |-
+  Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
+
+  Förderkennzeichen: 16DKZ2034
+qualityAssurance:
+  description: https://doi.org/10.5281/zenodo.18953896
+  date: '2026-11-14'
+learningResourceType: Jupyter Book
+schemaVersion: 2.0.0
+license: https://creativecommons.org/licenses/by-sa/4.0/
+licenseCode: https://opensource.org/licenses/AGPL-3.0
