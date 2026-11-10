@@ -22,7 +22,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Skorinkin, D., Sluyter-Gäthje, H. & Trilcke, P. (2024). _Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie._ https://doi.org/10.5281/zenodo.15682652
+Skorinkin, D., Sluyter-Gäthje, H. & Trilcke, P. (2024). _Quantitative Analyse der Medienwellen der Spanischen Grippe (1918/19). Eine Fallstudie. QUADRIGA Open Educational Resources: Text 1._ https://doi.org/10.5281/zenodo.15682652
 
 `````
 
@@ -63,4 +63,4 @@ Flussdiagramm der Fallstudie, die sich aus sechs Arbeitspaketen zusammensetzt.
 - Im **5. Schritt** reichern wir mithilfe von Verfahren des Natural Language Processing (NLP) die Textobjekte im Korpus mit linguistischen Informationen an (siehe Kapitel [„Korpusverarbeitung. Von Strings zu Token”](corpus-processing_intro)).
 - Im **6. Schritt** führen wir die quantitativen Analysen auf dem Korpus durch und visualisieren die Ergebnisse (siehe Kapitel [„Korpusanalyse”](corpus-analysis_intro)).
 
-Die Fallstudie schließt mit einer Reflexion und einem Ausblick (siehe Kapitel [„Reflexion und Resümee“](reflection_reflection)). 	
+Die Fallstudie schließt mit einer Reflexion und einem Ausblick (siehe Kapitel [„Reflexion und Resümee“](reflection_reflection)).
