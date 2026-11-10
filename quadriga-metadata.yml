@@ -16,7 +16,8 @@ authorLIST:
   affiliation: Universität Potsdam
 keywordLIST:
 - OCR
-- TODO
+- Optical Character Recognition
+- Open Educational Resource
 description: Dieses interaktive Lehrbuch vermittelt Methoden für die automatische
   Erstellung, Aufbereitung und Analyse eines Textkorpus. Im Zentrum steht die Frage,
   wie sich die mediale Aufmerksamkeit auf die Spanische Grippe in zeitgenössischen
@@ -243,8 +244,8 @@ chapterLIST:
     dataFlow: 4 Analyse
     bloomsCategory: 5 Bewerten
 dateIssued: '2024-06-17'
-dateModified: '2026-11-04'
-version: 1.0.0
+dateModified: '2026-11-10'
+version: 1.0.0-beta.6
 contextOfCreation: 'Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum
   QUADRIGA erstellt.
 

@@ -19,7 +19,7 @@
     "value": "10.5281/zenodo.15682652",
     "url": "https://doi.org/10.5281/zenodo.15682652"
   },
-  "version": "1.0.0",
+  "version": "1.0.0-beta.6",
   "schemaVersion": "2.0.0",
   "url": "https://quadriga-dk.github.io/Text-Fallstudie-1/",
   "workExample": {
@@ -28,7 +28,7 @@
     "codeRepository": "https://github.com/quadriga-dk/Text-Fallstudie-1"
   },
   "datePublished": "2024-06-17",
-  "dateModified": "2026-11-04",
+  "dateModified": "2026-11-10",
   "author": [
     {
       "@type": "Person",
@@ -126,7 +126,8 @@
   "inLanguage": "de",
   "keywords": [
     "OCR",
-    "TODO"
+    "Optical Character Recognition",
+    "Open Educational Resource"
   ],
   "about": [
     {
@@ -135,7 +136,11 @@
     },
     {
       "@type": "Thing",
-      "name": "TODO"
+      "name": "Optical Character Recognition"
+    },
+    {
+      "@type": "Thing",
+      "name": "Open Educational Resource"
     },
     {
       "@type": "Thing",
