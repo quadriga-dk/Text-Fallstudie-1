@@ -21,7 +21,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und jeden Versuch b
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
 
-**Geschätzte Zeit**: 1h 15min
+**Geschätzte Zeit**: 1 h 15 min
 
 Viel Erfolg!
 ````
@@ -33,7 +33,7 @@ Viel Erfolg!
 from jupyterquiz import display_quiz
 
 """
-Lernziel: Sie verfügen über ein Grundverständnis des Konzepts des semantischen Feldes, können den Unterschied zwischen absoluten und relativen Häufigkeiten erklären und die Darstellungsmethoden des Liniendiagramms und der Key Word in Context (KWIC)-Anzeige interpretieren.
+Lernziel: Sie verfügen über ein Grundverständnis des Konzepts des semantischen Feldes, können den Unterschied zwischen absoluten und relativen Häufigkeiten erklären und die Darstellungsmethoden des Liniendiagramms und der Keyword in Context (KWIC)-Anzeige interpretieren.
 Bloom-Stufe: Verstehen, Analysieren
 Format: Multiple Choice
 """
@@ -691,7 +691,7 @@ create_answer_box('frequency-analysis')
 from jupyterquiz import display_quiz
 
 """
-Lernziel: Sie können die Darstellungsmethode Keywords in Context beschreiben, Wörter zur Anzeige auswählen und diese anzeigen lassen.
+Lernziel: Sie können die Darstellungsmethode Keyword in Context (KWIC) beschreiben, Wörter zur Anzeige auswählen und diese anzeigen lassen.
 Format: Multiple Choice
 """
 
