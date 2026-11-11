@@ -38,7 +38,7 @@ Die Vereinbarung wurde am 15. März 2023 <span style="background-color: #fff3cd;
 
 ### 3. Wiederherstellung der Formatierung
 
-OCR kann die Formatierung von Texten, wie z.B. Absätze, Überschriften, und Aufzählungen, nicht immer richtig interpretieren. Eine manuelle Nachbearbeitung ist oft notwendig, um die ursprüngliche Struktur des Dokuments wiederherzustellen.
+OCR kann die Formatierung von Texten, wie z.B. Absätze, Überschriften und Aufzählungen, nicht immer richtig interpretieren. Eine manuelle Nachbearbeitung ist oft notwendig, um die ursprüngliche Struktur des Dokuments wiederherzustellen.
 
 **Original (nach OCR):**
 ```
@@ -84,7 +84,7 @@ Zur weiteren Überprüfung<span style="background-color: #cce5ff; font-weight: b
 
 Now that you have an understanding of the various OCR post-processing methods, you can try out the interactive exercises below!<br>
 
-In this interactive element, you can use the check boxes to see how the post-processing steps explained above work in practice. Once a certain category is selected, the corresponding corrections will be highlighted in the text. Feel free to try with different combinations to see how the entire workflow comes together!</p>
+In this interactive element, you can use the check boxes to see how the post-processing steps explained above work in practice. Once a certain category is selected, the corresponding corrections will be highlighted in the text. Feel free to try with different combinations to see how the entire workflow comes together!
 
 <div style="border: 1px solid #ddd; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
   <div style="margin-bottom: 15px; font-family: sans-serif;">
@@ -146,7 +146,7 @@ In this interactive element, you can use the check boxes to see how the post-pro
 </script>
 <br>
 
-In this second interactive widget, your goal is to match each text snippet with its correct post-processing category. Read the small blocks of text and try to select the category you think fits best. If your guess is correct, the text will turn green and reveal the correction; if incorrect, you will be prompted to try again.</p>
+In this second interactive widget, your goal is to match each text snippet with its correct post-processing category. Read the small blocks of text and try to select the category you think fits best. If your guess is correct, the text will turn green and reveal the correction; if incorrect, you will be prompted to try again.
 
 <p>Wählen Sie für jeden Textausschnitt die passende Nachbearbeitungs-Kategorie aus. Bei richtiger Auswahl wird der Text automatisch korrigiert.</p>
 
