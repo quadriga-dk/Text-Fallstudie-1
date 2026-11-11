@@ -21,7 +21,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und jeden Versuch b
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
 
-**Geschätzte Zeit**: 45min
+**Geschätzte Zeit**: 45 min
 
 **Viel Erfolg!**
 ````
@@ -591,7 +591,7 @@ multiple_choice_14 = [{
         {
             "answer": "Bessere Erkennung von Fachtermini",
             "correct": False,
-            "feedback": """× Nicht korrekt. Die Anwendung von LLMs bei der Nachbereitung führt nicht zu einer besseren Erkennung, sondern erhöht das Risiko, dass Fachbegriffe falsch interpretiert oder ersetzt werden."""
+            "feedback": """× Nicht korrekt. Die Anwendung von LLMs bei der Nachbearbeitung führt nicht zu einer besseren Erkennung, sondern erhöht das Risiko, dass Fachbegriffe falsch interpretiert oder ersetzt werden."""
         }
     ]
 }]
