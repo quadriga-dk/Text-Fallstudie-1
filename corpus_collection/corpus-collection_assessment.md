@@ -432,7 +432,7 @@ format_questions = [
             {
                 "answer": "CSV",
                 "correct": True,
-                "feedback": "Richtig. Tabellarische Daten in CSV-Format sind sehr speichereffizient für strukturierte Informationen."
+                "feedback": "Richtig. Tabellarische Daten im CSV-Format sind sehr speichereffizient für strukturierte Informationen."
             }
         ]
     }
@@ -884,14 +884,14 @@ quiz.create_matching_quiz(
     title="Ordnen Sie die folgenden Schritte beim Korpusaufbau in die richtige Reihenfolge:",
     descriptions=["Entwicklung des Korpuskonzepts",
         "Test der Sammlungsmethodik",
-        "Festlegung des Metadatenstruktur",
+        "Festlegung der Metadatenstruktur",
         "Dokumentation der Auswahlkriterien",
         "Durchführung der Datensammlung"],
     options=["1", "2", "3", "4", "5"],
     correct_mapping={
         "Entwicklung des Korpuskonzepts" : "1",
         "Dokumentation der Auswahlkriterien" : "2",
-        "Festlegung des Metadatenstruktur" : "3",
+        "Festlegung der Metadatenstruktur" : "3",
         "Test der Sammlungsmethodik" : "4",
         "Durchführung der Datensammlung" : "5"
     }
