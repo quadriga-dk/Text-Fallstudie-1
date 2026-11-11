@@ -35,7 +35,7 @@ The confusion matrix represents the distribution of correctly recognized charact
 
 ```{raw} html
 <div id="toy-ocr" style="font-family:system-ui, sans-serif; max-width:650px; margin:15px 0;">
-  <h3 style="margin-bottom:20px;">🎯 Mini Demo: Enter a string and and move the slider to see how each metrics change</h3>
+  <h3 style="margin-bottom:20px;">🎯 Mini Demo: Enter a string and move the slider to see how each metric changes</h3>
 
   <label>Enter a text (Ground truth):</label>
   <input id="toyGT" value="GRIPPEPANDEMIE"
