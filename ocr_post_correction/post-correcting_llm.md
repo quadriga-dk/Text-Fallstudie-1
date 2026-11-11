@@ -81,7 +81,7 @@ The interactive widget below demonstrates the challenges of using LLMs for OCR c
       expTextColor: "#721c24"
     },
     detailed: {
-      prompt: "Du bist Deutsch-Muttersprachler. Hier ist ein OCR-Ergebnis in Deutsch. Bitte korrigiere es nach, indem Sie die ursprünglichen Wörter wiederherstellen, die mit Fehlern erkannt wurden.\n\n[Raw OCR text provided...]",
+      prompt: "Sie sind deutscher Muttersprachler. Hier ist ein OCR-Ergebnis in Deutsch. Bitte korrigieren Sie es nach, indem Sie die ursprünglichen Wörter wiederherstellen, die mit Fehlern erkannt wurden.\n\n[Raw OCR text provided...]",
       output: "Hier ist der korrigierte Text:\n\n<span style='background-color: #d4edda; color: #155724; padding: 2px 4px; border-radius: 3px; font-weight: bold;'>Die Grippe wütet weiter</span>\n\nZunahme der schweren Fälle in Berlin.\n\nDie Zahl der Grippefälle ist in den letzten\nbeiden Tagen auch in Groß-Berlin noch \nerheblich gestiegen. Die <span style='background-color: #d4edda; color: #155724; padding: 2px 4px; border-radius: 3px; font-weight: bold;'>Warenhäuser</span> und son-\nstigen großen Geschäfte, die Kriegs- und die privaten\nBetriebe klagen, dass übermäßig viele Angestellte\nsich haben krankmelden müssen, und auch\nbei der Post und bei der Straßenbahn ist der \nAusfall der Grippekranken bedeutend groß.",
       explanation: "✅ <strong>Success:</strong> By defining a clear persona and explicit rules ('restore original words'), the model successfully corrected the OCR noise without changing the historical meaning.",
       expColor: "#d4edda",
