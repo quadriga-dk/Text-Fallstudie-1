@@ -83,7 +83,7 @@
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-1/#chapter_6_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 4.1 Datenanalyse | Bloom's: 5 Bewerten | Data Flow: 4 Analyse</schema:targetDescription>
-    <schema:targetName>Das Konzept des semantischen Feldes kann erklärt, der Unterschied zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden des Liniendiagramms und der Key Word in Context (KWIC)-Anzeige interpretiert werden.</schema:targetName>
+    <schema:targetName>Das Konzept des semantischen Feldes kann erklärt, der Unterschied zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden des Liniendiagramms und der Keyword in Context (KWIC)-Anzeige interpretiert werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-1/#chapter_6_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
@@ -93,7 +93,7 @@
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-1/#chapter_6_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 4.2 Visualisierung | Bloom's: 3 Anwenden | Data Flow: 4 Analyse</schema:targetDescription>
-    <schema:targetName>Die Darstellungsmethode Keywords in Context kann beschrieben, Wörter zur Anzeige ausgewählt und diese angezeigt werden.</schema:targetName>
+    <schema:targetName>Die Darstellungsmethode Keyword in Context (KWIC) kann beschrieben, Wörter zur Anzeige ausgewählt und diese angezeigt werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-1/#chapter_7_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>

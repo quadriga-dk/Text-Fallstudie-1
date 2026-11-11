@@ -345,7 +345,7 @@
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Das Konzept des semantischen Feldes kann erklärt, der Unterschied zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden des Liniendiagramms und der Key Word in Context (KWIC)-Anzeige interpretiert werden.",
+          "targetName": "Das Konzept des semantischen Feldes kann erklärt, der Unterschied zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden des Liniendiagramms und der Keyword in Context (KWIC)-Anzeige interpretiert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: 4.1 Datenanalyse | Bloom's: 5 Bewerten | Data Flow: 4 Analyse"
         },
@@ -357,7 +357,7 @@
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Die Darstellungsmethode Keywords in Context kann beschrieben, Wörter zur Anzeige ausgewählt und diese angezeigt werden.",
+          "targetName": "Die Darstellungsmethode Keyword in Context (KWIC) kann beschrieben, Wörter zur Anzeige ausgewählt und diese angezeigt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: 4.2 Visualisierung | Bloom's: 3 Anwenden | Data Flow: 4 Analyse"
         }
