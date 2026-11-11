@@ -21,7 +21,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und jeden Versuch b
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
 
-**Geschätzte Zeit**: 1h 10min
+**Geschätzte Zeit**: 1 h 10 min
 
 Viel Erfolg!
 ````
