@@ -1,7 +1,7 @@
 (research-question_summary)=
 # Resümee
 
-```{admonition} Key points des Kapitels
+```{admonition} Key Points des Kapitels
 :class: keypoint
 
 **Medizinische vs. mediale Wellen:** Medizinische Fallzahlen und mediale Aufmerksamkeit folgen unterschiedlichen Verlaufsmustern. „Medienwellen“ zeigen sich in der schwankenden Intensität öffentlicher Diskussion über Pandemien.
