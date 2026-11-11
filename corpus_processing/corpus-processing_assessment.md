@@ -437,7 +437,7 @@ multiple_choice_4 = [{
         {
             "answer": "CSV, weil es gut für die Speicherung tabellarischer Daten geeignet ist",
             "correct": True,
-            "feedback": """✓ Richtig! Im Notebook steht explizit: "CSV (comma-separated value) ist das Standardformat um tabellarische Daten im Klartext zu speichern." Außerdem wird erwähnt: "Das Tabellenformat wurde gewählt, da sich darin gut relationale Daten speichern lassen." """
+            "feedback": """✓ Richtig! Im Notebook steht explizit: "CSV (comma-separated value) ist das Standardformat, um tabellarische Daten im Klartext zu speichern." Außerdem wird erwähnt: "Das Tabellenformat wurde gewählt, da sich darin gut relationale Daten speichern lassen." """
         },
         {
             "answer": "JSON, weil es die hierarchische Struktur der Annotation am besten abbildet",
