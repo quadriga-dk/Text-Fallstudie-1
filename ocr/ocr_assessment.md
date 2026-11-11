@@ -685,7 +685,7 @@ precision_question = [
             {
                 "answer": "Weniger Korrekturaufwand ist notwendig",
                 "correct": True,
-                "feedback": """✓ Teilweise Richtig. Hohe Präzision bedeutet, dass die meisten erkannten Zeichen korrekt sind, was den Korrekturaufwand reduziert. Allerdings sagt die Präzision nichts darüber aus, wie viel Text unerkannt geblieben ist, der nachkorrigiert werden muss."""
+                "feedback": """✓ Teilweise richtig. Hohe Präzision bedeutet, dass die meisten erkannten Zeichen korrekt sind, was den Korrekturaufwand reduziert. Allerdings sagt die Präzision nichts darüber aus, wie viel Text unerkannt geblieben ist, der nachkorrigiert werden muss."""
             },
             {
                 "answer": "Es entstehen viele falsch positive Erkennungen",
