@@ -663,7 +663,7 @@ create_answer_box('frequency-analysis')
 - Visualisierung der Ergebnisse in einem Liniendiagramm
 
 **2. Verwendung von absoluten vs. relativen Häufigkeiten:**
-- Absolute Häufigkeiten können verwendet werden, wenn die tatsächlichen Anzahl der Erwähnungen von Interesse ist, z.B. um die reine Medienpräsenz zu quantifizieren
+- Absolute Häufigkeiten können verwendet werden, wenn die tatsächliche Anzahl der Erwähnungen von Interesse ist, z.B. um die reine Medienpräsenz zu quantifizieren
 - Relative Häufigkeiten können für den Vergleich zwischen Zeitabschnitten mit unterschiedlicher Textmenge verwendet werden
 - Bei der Analyse über einen längeren Zeitraum mit schwankender Verfügbarkeit von Zeitungsausgaben sind relative Häufigkeiten unverzichtbar
 - Idealerweise werden beide Werte berechnet, da dies die Möglichkeit bietet, zwischen beiden Darstellungen zu wechseln
@@ -672,7 +672,7 @@ create_answer_box('frequency-analysis')
 - Tägliche Aggregation: für detaillierte Analysen, besonders bei plötzlichen Ereignissen wie Naturkatastrophen
 - Wöchentliche Aggregation: für mittelfristige Trends, reduziert tägliche Schwankungen
 - Monatliche Aggregation: für langfristige Trends über mehrere Jahre
-- Bei einer Naturkatastrophe könnten alle drei Ebenen angeboten werden, aber der Fokus sollte auf der täglichen und wöchentlichen Aggregation legen, da die mediale Aufmerksamkeit für solche Ereignisse typischerweise schnell ansteigt und dann allmählich abnimmt
+- Bei einer Naturkatastrophe könnten alle drei Ebenen angeboten werden, aber der Fokus sollte auf der täglichen und wöchentlichen Aggregation liegen, da die mediale Aufmerksamkeit für solche Ereignisse typischerweise schnell ansteigt und dann allmählich abnimmt
 
 **4. Visualisierung und Interpretation:**
 - Interaktives Liniendiagramm mit der Möglichkeit, zwischen Zeiteinheiten und absoluten/relativen Häufigkeiten zu wechseln
