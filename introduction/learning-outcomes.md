@@ -76,11 +76,11 @@
 :class: lernziele
 <!-- learning-goal: Frequenzanalysen semantischer Felder -->
 
-1. Das Konzept des semantischen Feldes kann erklärt, der Unterschied zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden des Liniendiagramms und der Key Word in Context (KWIC)-Anzeige interpretiert werden. <!-- competency: 4.1 Datenanalyse | bloom: 5 Bewerten -->
+1. Das Konzept des semantischen Feldes kann erklärt, der Unterschied zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden des Liniendiagramms und der Keyword in Context (KWIC)-Anzeige interpretiert werden. <!-- competency: 4.1 Datenanalyse | bloom: 5 Bewerten -->
 
 2. Die notwendigen Schritte zur Frequenzanalyse eines semantischen Felds können aufgezählt, Unterschiede in der Berechnung der Häufigkeiten benannt und die Ergebnisse reflektiert werden. <!-- competency: 4.1 Datenanalyse | bloom: 5 Bewerten -->
 
-3. Die Darstellungsmethode Keywords in Context kann beschrieben, Wörter zur Anzeige ausgewählt und diese angezeigt werden. <!-- competency: 4.2 Visualisierung | bloom: 3 Anwenden -->
+3. Die Darstellungsmethode Keyword in Context (KWIC) kann beschrieben, Wörter zur Anzeige ausgewählt und diese angezeigt werden. <!-- competency: 4.2 Visualisierung | bloom: 3 Anwenden -->
 
 ```
 <!-- END: Korpusanalyse. Von Häufigkeiten zu Diagrammen -->
