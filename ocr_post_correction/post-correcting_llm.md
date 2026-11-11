@@ -34,13 +34,13 @@ name: LLM postcorrection small hallucination
 
 ## 🚀 Your turn: Interaktives Beispiel
 
-The interactive widget below demonstrate the challenges of using LLMs for OCR correction we just saw above. You can also test different prompt strategies and see exactly how AI unpredictability affects the final text!
+The interactive widget below demonstrates the challenges of using LLMs for OCR correction we just saw above. You can also test different prompt strategies and see exactly how AI unpredictability affects the final text!
 
 *⚠️ Note: The widgets below are just simulations designed to replicate LLM behavior, and non-determinism based on pre-computed data.*
 
 ```{raw} html
 <p style="font-size: 1.3rem;">🎯 <strong> Mini Demo: The LLM Prompt Simulator </strong><br></p>
-<p> Unlike rule-based scripts, LLMs are unpredictable. Select different prompt strategies from the dropdown below to see how the model reacts to the raw OCR text. Pay attention to the highlighted words to spot where the LLM makes good corrections (green) and where it "hallucinates" or alters the historical meaning (re/yellow).</p>
+<p> Unlike rule-based scripts, LLMs are unpredictable. Select different prompt strategies from the dropdown below to see how the model reacts to the raw OCR text. Pay attention to the highlighted words to spot where the LLM makes good corrections (green) and where it "hallucinates" or alters the historical meaning (red/yellow).</p>
 
 <div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; font-family: sans-serif;">
   
@@ -88,7 +88,7 @@ The interactive widget below demonstrate the challenges of using LLMs for OCR co
       expTextColor: "#155724"
     },
     regenerate: {
-      prompt: "Sie sind ein gebildeter deutscher Muttersprachler. Hier ist ein OCR Ergebnis einer deutschen Zeitung aus dem Jahr 1918. Bitte korrigieren Sie es nachträglich, indem Sie die ursprünglichen Wörter wiederherstellen...\n\n[Raw OCR text provided...]",
+      prompt: "Sie sind ein gebildeter deutscher Muttersprachler. Hier ist ein OCR-Ergebnis einer deutschen Zeitung aus dem Jahr 1918. Bitte korrigieren Sie es nachträglich, indem Sie die ursprünglichen Wörter wiederherstellen...\n\n[Raw OCR text provided...]",
       output: "Hier ist der korrigierte Text:\n\nDie Grippe wütet weiter\n\nZunahme der schweren Fälle in Berlin.\n\nDie Zahl der Grippefälle ist in den letzten beiden Tagen auch in Groß-Berlin noch erheblich gestiegen. Die <span style='background-color: #fff3cd; color: #856404; padding: 2px 4px; border-radius: 3px; font-weight: bold;' title='Non-deterministic error'>Krankenhäuser</span> und sonstigen großen Geschäfte, die Kriegs- und die privaten Betriebe klagen, dass übermäßig viele Angestellte sich haben krankmelden müssen, und auch bei der Post und bei der Straßenbahn ist der Ausfall der Grippekranken bedeutend groß.",
       explanation: "🎲 <strong>The Non-Determinism Problem:</strong> Even with a highly detailed prompt, running it a second time generated a slightly different result. The LLM randomly brought back the 'Krankenhäuser' mistake.",
       expColor: "#fff3cd",
