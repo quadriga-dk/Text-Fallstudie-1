@@ -1,7 +1,7 @@
 (corpus-collection_summary)=
 # Resümee
 
-```{admonition} Key points des Kapitels
+```{admonition} Key Points des Kapitels
 :class: keypoint
 **Korpora als Forschungsobjekte**
 
