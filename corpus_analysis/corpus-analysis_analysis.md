@@ -1,4 +1,4 @@
-(corpus-analysis_anlysis)=
+(corpus-analysis_analysis)=
 # Häufigkeitsanalyse, Visualisierung und KWIC
 
 ## Forschungsfrage und Operationalisierung
@@ -117,7 +117,7 @@ Eine zweite Möglichkeit, die Häufigkeiten über einen Zeitraum zusammenzufasse
 1. Alle Häufigkeiten addieren und durch die Summe der Textlängen teilen: $ {{20 + 5 + 15} \over {500 + 100 + 600}} = {{40} \over {1200}} = {0.033}$
 2. Die relativen Häufigkeiten addieren und durch die Anzahl an Tagen teilen: $ {{{20 \over 500} + {5 \over 100} + {15 \over 600}} \over 3} = {{0.04 + 0.05 + 0.025} \over 3} = 0.038$
 
-Mit der zweiten Methode ist die relative Häufigkeit um 0.005 Prozentpunkte höher.
+Mit der zweiten Methode ist die relative Häufigkeit um 0.5 Prozentpunkte höher.
 `````
 
 ## Visuelle Darstellung 
