@@ -211,7 +211,7 @@ chapterLIST:
   learningObjectiveLIST:
   - description: Das Konzept des semantischen Feldes kann erklärt, der Unterschied
       zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden
-      des Liniendiagramms und der Key Word in Context (KWIC)-Anzeige interpretiert
+      des Liniendiagramms und der Keyword in Context (KWIC)-Anzeige interpretiert
       werden.
     competency: 4.1 Datenanalyse
     dataFlow: 4 Analyse
@@ -222,8 +222,8 @@ chapterLIST:
     competency: 4.1 Datenanalyse
     dataFlow: 4 Analyse
     bloomsCategory: 5 Bewerten
-  - description: Die Darstellungsmethode Keywords in Context kann beschrieben, Wörter
-      zur Anzeige ausgewählt und diese angezeigt werden.
+  - description: Die Darstellungsmethode Keyword in Context (KWIC) kann beschrieben,
+      Wörter zur Anzeige ausgewählt und diese angezeigt werden.
     competency: 4.2 Visualisierung
     dataFlow: 4 Analyse
     bloomsCategory: 3 Anwenden
