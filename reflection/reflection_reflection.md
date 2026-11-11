@@ -35,7 +35,7 @@ Auch wenn es uns gelungen ist, das Ziel der Fallstudie zu erreichen und unsere e
 
 5. Mit der [Methode der Berechnung von Worthäufigkeiten](../corpus_analysis/corpus-analysis_analysis) haben wir ein sehr simples Analyseverfahren gewählt. Das **Methodenspektrum der Digital Humanities** bietet hier eine ganze Reihe anderer Verfahren – etwa Topic Modelling oder die Arbeit mit Word Embeddings – die z.B. stärker auch die Kontextinformationen von Wörtern oder die Nähe von Wörtern berücksichtigen. Die Anwendung avancierter Methoden der computationellen Analyse von Texten könnte in diesem Sinne ebenfalls zur Erhöhung der Aussagekraft und der Präzision der Ergebnisse der vorliegenden Fallstudie beitragen.
 
-Diese Punkte gilt es zu beachten, wenn es um die Einordnung der **Reichweite der Ergebnisse** geht. Dabei gilt für Digital Humanities-Projekte häufig, dass sie am Ende eine Abwegung vornehmen müssen zwischen 
+Diese Punkte gilt es zu beachten, wenn es um die Einordnung der **Reichweite der Ergebnisse** geht. Dabei gilt für Digital Humanities-Projekte häufig, dass sie am Ende eine Abwägung vornehmen müssen zwischen 
 
 - der Möglichkeit, Aussagen über – aus pragmatischer Sicht – menschlich unlesbar große Textmengen zu formulieren, auf der einen Seite 
 - und der quantitativen Unschärfe wie der qualitativen Oberflächlichkeit dieser Aussage im Vergleich zu interpretativen, auf Einzeltext-Lektüre gründenden Aussagen auf der anderen Seite. 
