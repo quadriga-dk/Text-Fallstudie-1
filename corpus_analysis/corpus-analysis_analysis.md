@@ -1,5 +1,5 @@
 (corpus-analysis_anlysis)=
-# Häufigkeitenanalyse, Visualisierung und KWIC
+# Häufigkeitsanalyse, Visualisierung und KWIC
 
 ## Forschungsfrage und Operationalisierung
 Wir gehen von folgender Forschungsfrage aus: 
@@ -9,7 +9,7 @@ Lassen sich für die Spanische Grippe 1918/1919 mit Fokus auf den Berliner Raum 
 `````
 Um diese mit quantitativen Methoden zu bearbeiten, wurde die Forschungsfrage zunächst wie folgt **operationalisiert**: 
 1. Die **öffentliche Aufmerksamkeit im Berliner Raum** wird durch ein Korpus von zwei Berliner Zeitungen gefasst.
-2. Die **Spanische Grippe** wird durch ein semantisches Feld, das sich um das Wort „Grippe“ kreist, untersucht. 
+2. Die **Spanische Grippe** wird durch ein semantisches Feld, das um das Wort „Grippe“ kreist, untersucht. 
 3. Der **Verlauf** der öffentlichen Aufmerksamkeit wird über die sich entwickelte Häufigkeit des Wortfelds untersucht. Eine erhöhte Häufigkeit deutet auf eine erhöhte Aufmerksamkeit hin. 
 
 
@@ -36,7 +36,7 @@ Bitte erstelle ein semantisches Feld zum Thema „Grippe“. Die Sprache ist deu
 * die Wörter sollen spezifisch für den Kontext „Grippe“ sein;
 * die Wörter sollen nicht mehrdeutig sein, also nach Möglichkeit nicht in anderen semantischen Kontext vorkommen;
 ```
-Als Resultat haben wir eine Liste mit 25 Nomen erhalten:
+Als Resultat haben wir eine Liste mit 27 Nomen erhalten:
 Influenza, Grippe, Grippeepidemie, Grippewelle, Grippekranke, Grippepandemie, Lungenentzündung, Krankheitswelle, Seuchenzug, Krankheitsausbruch, Fieberanfall, Schüttelfrost, Atemnot, Körpererschöpfung, Genesungszeit, Ansteckungsgefahr, Seuchenschutz, Desinfektionsmittel, Schutzmaske, Krankenstation, Isolationsstation, Sanitätsdienst, Krankheitsverlauf, Todesopfer, Krankheitssymptom, Erkrankungsfall, Lungeninfektion
 
 
@@ -152,11 +152,11 @@ Die Keyword in Context (KWIC)-Darstellung basiert auf der Suche eines oder mehre
  
 ```
 ### Der Gebrauch von KWIC
-Die KWIC-Darstellung bildet eine Brücke von der quantitativen zur qualitativen Analyse, da die Grundlage der Häufigkeitenanalyse genauer in Betracht genommen werden kann. Die Kontexte geben einen Überblick über den Gebrauch des Wortes und bieten so die Möglichkeit, Muster im Wortgebrauch festzustellen. Die zusätzlichen Metadaten erlauben es, in interessanten oder in Zweifelsfällen einen Blick in die Quelle zu werfen und so den Analysekontext zu erweitern.   
+Die KWIC-Darstellung bildet eine Brücke von der quantitativen zur qualitativen Analyse, da die Grundlage der Häufigkeitsanalyse genauer in Betracht genommen werden kann. Die Kontexte geben einen Überblick über den Gebrauch des Wortes und bieten so die Möglichkeit, Muster im Wortgebrauch festzustellen. Die zusätzlichen Metadaten erlauben es, in interessanten oder in Zweifelsfällen einen Blick in die Quelle zu werfen und so den Analysekontext zu erweitern.   
 Mit Hilfe der Darstellung kann außerdem die Annahme überprüft werden, dass sich die Wörter im semantischen Feld „Grippe“ tatsächlich auf die Grippe beziehen. Das semantische Feld kann in einem iterativen Prozess manuell verbessert werden, indem mehrdeutige Wörter, die häufig nicht auf die Grippe verweisen, aus dem Feld gelöscht werden und Wörter, die häufig im Kontext der Grippe vorkommen, aber nicht Teil des Felds sind, hinzugefügt werden.  
 
 ## Zusammenfassung und nächste Schritte 
-Mit diesem Kapitel sind wir zur Operationalisierung der Forschungsfrage zurückgekehrt. Es wurde herausgestellt, dass die Grippe durch ein semantisches Feld untersucht und wie dieses erstellt wurde. Dann wurde die Methode der Häufigkeitenanalyse vorgestellt und in die Visualisierung der Häufigkeiten eingeführt. Zum Schluss wurde die Darstellung Keyword in Context erklärt und der Gebrauch erläutert.
+Mit diesem Kapitel sind wir zur Operationalisierung der Forschungsfrage zurückgekehrt. Es wurde herausgestellt, dass die Grippe durch ein semantisches Feld untersucht und wie dieses erstellt wurde. Dann wurde die Methode der Häufigkeitsanalyse vorgestellt und in die Visualisierung der Häufigkeiten eingeführt. Zum Schluss wurde die Darstellung Keyword in Context erklärt und der Gebrauch erläutert.
 
 Im nächsten Abschnitt wird die Häufigkeitsanalyse durchgeführt, dabei besteht die Möglichkeit mit einem eigens erstellten semantischen Feld zu arbeiten. Die berechneten Häufigkeiten werden dann in einem Liniendiagramm visualisiert.
 Darauffolgend gibt es die Möglichkeit, Suchterme für die KWIC-Darstellung einzugeben und sich so einen tieferen Einblick in die Analyse zu verschaffen. Abschließend folgt ein Resümee. 
