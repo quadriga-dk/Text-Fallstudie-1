@@ -12,7 +12,7 @@ name: LLM postcorrection gone wrong
 ---
 ```
 
-*In diesem Fall haben wir das Modell einfach gebeten, zu „korrigieren“, und als Ergebnis erhielten wir einen Text, der erheblich verändert wurde. Dabei war unser Ziel eigentlich, nur die OCR-Fehler zu korrigieren, ohne den Originaltext zu ändern.*
+*In diesem Fall haben wir das Modell einfach gebeten, zu "korrigieren", und als Ergebnis erhielten wir einen Text, der erheblich verändert wurde. Dabei war unser Ziel eigentlich, nur die OCR-Fehler zu korrigieren, ohne den Originaltext zu ändern.*
 
 * Versuchen Sie, detailliertere Anweisungen zu geben, um die gewünschten Ergebnisse zu erhalten.
 
